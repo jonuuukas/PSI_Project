@@ -4,7 +4,10 @@ Useful links:
 http://uosis.mif.vu.lt/~km/psi-se/LT-PSI_projektas.pdf
 http://uosis.mif.vu.lt/~km/psi-se/
 https://help.github.com/articles/fork-a-repo/
-http://www.modelio.org/downloads/download-modelio.html
+
+http://staruml.io/download (Windows, MAC OS)
+
+http://www.modelio.org/downloads/download-modelio.html (Crossplatform)
 
 GitHub tutorials:
 
