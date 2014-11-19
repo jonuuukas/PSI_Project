@@ -22,28 +22,484 @@
 			"name": "ClassDiagram",
 			"ownedElements": [
 				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAFJxFS0zCmojcQ=",
+					"_type": "UMLModel",
+					"_id": "AAAAAAFJybozhrBobe4=",
 					"_parent": {
 						"$ref": "AAAAAAFJxFOSCijIGFU="
 					},
-					"name": "Žaidimai",
+					"name": "Platforma",
+					"ownedElements": [
+						{
+							"_type": "UMLPackage",
+							"_id": "AAAAAAFJybsmZLiwluU=",
+							"_parent": {
+								"$ref": "AAAAAAFJybozhrBobe4="
+							},
+							"name": "Platforma",
+							"visibility": "public"
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFJxFS0zCmojcQ=",
+							"_parent": {
+								"$ref": "AAAAAAFJybozhrBobe4="
+							},
+							"name": "Žaidimai",
+							"ownedElements": [
+								{
+									"_type": "UMLAssociation",
+									"_id": "AAAAAAFJyY7acErWzWU=",
+									"_parent": {
+										"$ref": "AAAAAAFJxFS0zCmojcQ="
+									},
+									"name": "Turi",
+									"end1": {
+										"_type": "UMLAssociationEnd",
+										"_id": "AAAAAAFJyY7acErXXt4=",
+										"_parent": {
+											"$ref": "AAAAAAFJyY7acErWzWU="
+										},
+										"reference": {
+											"$ref": "AAAAAAFJxFS0zCmojcQ="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLAssociationEnd",
+										"_id": "AAAAAAFJyY7acErYAHg=",
+										"_parent": {
+											"$ref": "AAAAAAFJyY7acErWzWU="
+										},
+										"reference": {
+											"$ref": "AAAAAAFJxFVXUyn2iLI="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"isDerived": false
+								},
+								{
+									"_type": "UMLAssociation",
+									"_id": "AAAAAAFJyY828k7KmII=",
+									"_parent": {
+										"$ref": "AAAAAAFJxFS0zCmojcQ="
+									},
+									"name": "Turi",
+									"end1": {
+										"_type": "UMLAssociationEnd",
+										"_id": "AAAAAAFJyY828k7LN9Q=",
+										"_parent": {
+											"$ref": "AAAAAAFJyY828k7KmII="
+										},
+										"reference": {
+											"$ref": "AAAAAAFJxFS0zCmojcQ="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLAssociationEnd",
+										"_id": "AAAAAAFJyY828k7Msso=",
+										"_parent": {
+											"$ref": "AAAAAAFJyY828k7KmII="
+										},
+										"reference": {
+											"$ref": "AAAAAAFJxFUNuSnQPaE="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"isDerived": false
+								}
+							],
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecification": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFJxFUNuSnQPaE=",
+							"_parent": {
+								"$ref": "AAAAAAFJybozhrBobe4="
+							},
+							"name": "Pasiekimai",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecification": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFJxFVXUyn2iLI=",
+							"_parent": {
+								"$ref": "AAAAAAFJybozhrBobe4="
+							},
+							"name": "Parduotuvė",
+							"ownedElements": [
+								{
+									"_type": "UMLAssociation",
+									"_id": "AAAAAAFJyY6HYEhmtd0=",
+									"_parent": {
+										"$ref": "AAAAAAFJxFVXUyn2iLI="
+									},
+									"name": "Apsiperka",
+									"end1": {
+										"_type": "UMLAssociationEnd",
+										"_id": "AAAAAAFJyY6HYEhnA+M=",
+										"_parent": {
+											"$ref": "AAAAAAFJyY6HYEhmtd0="
+										},
+										"reference": {
+											"$ref": "AAAAAAFJxFVXUyn2iLI="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLAssociationEnd",
+										"_id": "AAAAAAFJyY6HYEhopuQ=",
+										"_parent": {
+											"$ref": "AAAAAAFJyY6HYEhmtd0="
+										},
+										"reference": {
+											"$ref": "AAAAAAFJyYd38TQ4tKQ="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"isDerived": false
+								}
+							],
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecification": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFJxFWRASoc3kk=",
+							"_parent": {
+								"$ref": "AAAAAAFJybozhrBobe4="
+							},
+							"name": "Žinutės",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecification": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFJxFXoUipCsPo=",
+							"_parent": {
+								"$ref": "AAAAAAFJybozhrBobe4="
+							},
+							"name": "Registracija",
+							"ownedElements": [
+								{
+									"_type": "UMLAssociation",
+									"_id": "AAAAAAFJybwqY8Ibflk=",
+									"_parent": {
+										"$ref": "AAAAAAFJxFXoUipCsPo="
+									},
+									"name": "Pateikia info",
+									"end1": {
+										"_type": "UMLAssociationEnd",
+										"_id": "AAAAAAFJybwqZcIc5Cs=",
+										"_parent": {
+											"$ref": "AAAAAAFJybwqY8Ibflk="
+										},
+										"reference": {
+											"$ref": "AAAAAAFJxFXoUipCsPo="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLAssociationEnd",
+										"_id": "AAAAAAFJybwqZcIdoNY=",
+										"_parent": {
+											"$ref": "AAAAAAFJybwqY8Ibflk="
+										},
+										"reference": {
+											"$ref": "AAAAAAFJyYd38TQ4tKQ="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"isDerived": false
+								}
+							],
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecification": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFJxFYP3CpoI9M=",
+							"_parent": {
+								"$ref": "AAAAAAFJybozhrBobe4="
+							},
+							"name": "Žaidimų biblioteka",
+							"ownedElements": [
+								{
+									"_type": "UMLAssociation",
+									"_id": "AAAAAAFJybycKMQf5Ao=",
+									"_parent": {
+										"$ref": "AAAAAAFJxFYP3CpoI9M="
+									},
+									"name": "Turi",
+									"end1": {
+										"_type": "UMLAssociationEnd",
+										"_id": "AAAAAAFJybycKMQgNFk=",
+										"_parent": {
+											"$ref": "AAAAAAFJybycKMQf5Ao="
+										},
+										"reference": {
+											"$ref": "AAAAAAFJxFYP3CpoI9M="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLAssociationEnd",
+										"_id": "AAAAAAFJybycKcQhNY8=",
+										"_parent": {
+											"$ref": "AAAAAAFJybycKMQf5Ao="
+										},
+										"reference": {
+											"$ref": "AAAAAAFJxFS0zCmojcQ="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"isDerived": false
+								},
+								{
+									"_type": "UMLAssociation",
+									"_id": "AAAAAAFJybzgq8cmNtE=",
+									"_parent": {
+										"$ref": "AAAAAAFJxFYP3CpoI9M="
+									},
+									"name": "Turi",
+									"end1": {
+										"_type": "UMLAssociationEnd",
+										"_id": "AAAAAAFJybzgq8cnPOM=",
+										"_parent": {
+											"$ref": "AAAAAAFJybzgq8cmNtE="
+										},
+										"reference": {
+											"$ref": "AAAAAAFJxFYP3CpoI9M="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLAssociationEnd",
+										"_id": "AAAAAAFJybzgq8coh4w=",
+										"_parent": {
+											"$ref": "AAAAAAFJybzgq8cmNtE="
+										},
+										"reference": {
+											"$ref": "AAAAAAFJyYd38TQ4tKQ="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"isDerived": false
+								}
+							],
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecification": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFJxFZIASqO9CU=",
+							"_parent": {
+								"$ref": "AAAAAAFJybozhrBobe4="
+							},
+							"name": "Reikalavimų suderintuvas",
+							"ownedElements": [
+								{
+									"_type": "UMLAssociation",
+									"_id": "AAAAAAFJyb1WYstVY2Y=",
+									"_parent": {
+										"$ref": "AAAAAAFJxFZIASqO9CU="
+									},
+									"name": "Naudoja",
+									"end1": {
+										"_type": "UMLAssociationEnd",
+										"_id": "AAAAAAFJyb1WYstWFuw=",
+										"_parent": {
+											"$ref": "AAAAAAFJyb1WYstVY2Y="
+										},
+										"reference": {
+											"$ref": "AAAAAAFJxFZIASqO9CU="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"end2": {
+										"_type": "UMLAssociationEnd",
+										"_id": "AAAAAAFJyb1WY8tXLUo=",
+										"_parent": {
+											"$ref": "AAAAAAFJyb1WYstVY2Y="
+										},
+										"reference": {
+											"$ref": "AAAAAAFJyYd38TQ4tKQ="
+										},
+										"visibility": "public",
+										"navigable": true,
+										"aggregation": "none",
+										"isReadOnly": false,
+										"isOrdered": false,
+										"isUnique": false,
+										"isDerived": false,
+										"isID": false
+									},
+									"visibility": "public",
+									"isDerived": false
+								}
+							],
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecification": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFJxFaTjCq0mHQ=",
+							"_parent": {
+								"$ref": "AAAAAAFJybozhrBobe4="
+							},
+							"name": "Paieška",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecification": false,
+							"isLeaf": false,
+							"isActive": false
+						}
+					],
+					"visibility": "public"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFJyYcpRTQKLDA=",
+					"_parent": {
+						"$ref": "AAAAAAFJxFOSCijIGFU="
+					},
+					"name": "Vartotojas",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
-							"_id": "AAAAAAFJyY7acErWzWU=",
+							"_id": "AAAAAAFJyYkjSTaZWSc=",
 							"_parent": {
-								"$ref": "AAAAAAFJxFS0zCmojcQ="
+								"$ref": "AAAAAAFJyYcpRTQKLDA="
 							},
-							"name": "Turi",
+							"name": "Gali būti",
 							"end1": {
 								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAFJyY7acErXXt4=",
+								"_id": "AAAAAAFJyYkjSTaa5+I=",
 								"_parent": {
-									"$ref": "AAAAAAFJyY7acErWzWU="
+									"$ref": "AAAAAAFJyYkjSTaZWSc="
 								},
 								"reference": {
-									"$ref": "AAAAAAFJxFS0zCmojcQ="
+									"$ref": "AAAAAAFJyYcpRTQKLDA="
 								},
 								"visibility": "public",
 								"navigable": true,
@@ -56,12 +512,74 @@
 							},
 							"end2": {
 								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAFJyY7acErYAHg=",
+								"_id": "AAAAAAFJyYkjSTabZpM=",
 								"_parent": {
-									"$ref": "AAAAAAFJyY7acErWzWU="
+									"$ref": "AAAAAAFJyYkjSTaZWSc="
 								},
 								"reference": {
-									"$ref": "AAAAAAFJxFVXUyn2iLI="
+									"$ref": "AAAAAAFJyYgi9zSI1/c="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"visibility": "public",
+							"isDerived": false
+						}
+					],
+					"stereotype": "actor",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecification": false,
+					"isLeaf": false,
+					"isActive": false
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFJyYd38TQ4tKQ=",
+					"_parent": {
+						"$ref": "AAAAAAFJxFOSCijIGFU="
+					},
+					"name": "Žaidėjas",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAFJyYiLaTS1xLc=",
+							"_parent": {
+								"$ref": "AAAAAAFJyYd38TQ4tKQ="
+							},
+							"name": "Gali būti",
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFJyYiLaTS2TjU=",
+								"_parent": {
+									"$ref": "AAAAAAFJyYiLaTS1xLc="
+								},
+								"reference": {
+									"$ref": "AAAAAAFJyYd38TQ4tKQ="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFJyYiLaTS3vS4=",
+								"_parent": {
+									"$ref": "AAAAAAFJyYiLaTS1xLc="
+								},
+								"reference": {
+									"$ref": "AAAAAAFJyYcpRTQKLDA="
 								},
 								"visibility": "public",
 								"navigable": true,
@@ -77,108 +595,16 @@
 						},
 						{
 							"_type": "UMLAssociation",
-							"_id": "AAAAAAFJyY828k7KmII=",
+							"_id": "AAAAAAFJyY74iExcFVg=",
 							"_parent": {
-								"$ref": "AAAAAAFJxFS0zCmojcQ="
+								"$ref": "AAAAAAFJyYd38TQ4tKQ="
 							},
-							"name": "Turi",
+							"name": "Rašo",
 							"end1": {
 								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAFJyY828k7LN9Q=",
+								"_id": "AAAAAAFJyY74iExdOk0=",
 								"_parent": {
-									"$ref": "AAAAAAFJyY828k7KmII="
-								},
-								"reference": {
-									"$ref": "AAAAAAFJxFS0zCmojcQ="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAFJyY828k7Msso=",
-								"_parent": {
-									"$ref": "AAAAAAFJyY828k7KmII="
-								},
-								"reference": {
-									"$ref": "AAAAAAFJxFUNuSnQPaE="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"isDerived": false
-						}
-					],
-					"visibility": "public",
-					"isAbstract": false,
-					"isFinalSpecification": false,
-					"isLeaf": false,
-					"isActive": false
-				},
-				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAFJxFUNuSnQPaE=",
-					"_parent": {
-						"$ref": "AAAAAAFJxFOSCijIGFU="
-					},
-					"name": "Pasiekimai",
-					"visibility": "public",
-					"isAbstract": false,
-					"isFinalSpecification": false,
-					"isLeaf": false,
-					"isActive": false
-				},
-				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAFJxFVXUyn2iLI=",
-					"_parent": {
-						"$ref": "AAAAAAFJxFOSCijIGFU="
-					},
-					"name": "Parduotuvė",
-					"ownedElements": [
-						{
-							"_type": "UMLAssociation",
-							"_id": "AAAAAAFJyY6HYEhmtd0=",
-							"_parent": {
-								"$ref": "AAAAAAFJxFVXUyn2iLI="
-							},
-							"name": "Apsiperka",
-							"end1": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAFJyY6HYEhnA+M=",
-								"_parent": {
-									"$ref": "AAAAAAFJyY6HYEhmtd0="
-								},
-								"reference": {
-									"$ref": "AAAAAAFJxFVXUyn2iLI="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAFJyY6HYEhopuQ=",
-								"_parent": {
-									"$ref": "AAAAAAFJyY6HYEhmtd0="
+									"$ref": "AAAAAAFJyY74iExcFVg="
 								},
 								"reference": {
 									"$ref": "AAAAAAFJyYd38TQ4tKQ="
@@ -192,131 +618,14 @@
 								"isDerived": false,
 								"isID": false
 							},
-							"visibility": "public",
-							"isDerived": false
-						}
-					],
-					"visibility": "public",
-					"isAbstract": false,
-					"isFinalSpecification": false,
-					"isLeaf": false,
-					"isActive": false
-				},
-				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAFJxFWRASoc3kk=",
-					"_parent": {
-						"$ref": "AAAAAAFJxFOSCijIGFU="
-					},
-					"name": "Žinutės",
-					"visibility": "public",
-					"isAbstract": false,
-					"isFinalSpecification": false,
-					"isLeaf": false,
-					"isActive": false
-				},
-				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAFJxFXoUipCsPo=",
-					"_parent": {
-						"$ref": "AAAAAAFJxFOSCijIGFU="
-					},
-					"name": "Registracija",
-					"ownedElements": [
-						{
-							"_type": "UMLAssociation",
-							"_id": "AAAAAAFJybwqY8Ibflk=",
-							"_parent": {
-								"$ref": "AAAAAAFJxFXoUipCsPo="
-							},
-							"name": "Pateikia info",
-							"end1": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAFJybwqZcIc5Cs=",
-								"_parent": {
-									"$ref": "AAAAAAFJybwqY8Ibflk="
-								},
-								"reference": {
-									"$ref": "AAAAAAFJxFXoUipCsPo="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
 							"end2": {
 								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAFJybwqZcIdoNY=",
+								"_id": "AAAAAAFJyY74iExeeCM=",
 								"_parent": {
-									"$ref": "AAAAAAFJybwqY8Ibflk="
+									"$ref": "AAAAAAFJyY74iExcFVg="
 								},
 								"reference": {
-									"$ref": "AAAAAAFJyYd38TQ4tKQ="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"isDerived": false
-						}
-					],
-					"visibility": "public",
-					"isAbstract": false,
-					"isFinalSpecification": false,
-					"isLeaf": false,
-					"isActive": false
-				},
-				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAFJxFYP3CpoI9M=",
-					"_parent": {
-						"$ref": "AAAAAAFJxFOSCijIGFU="
-					},
-					"name": "Žaidimų biblioteka",
-					"ownedElements": [
-						{
-							"_type": "UMLAssociation",
-							"_id": "AAAAAAFJybycKMQf5Ao=",
-							"_parent": {
-								"$ref": "AAAAAAFJxFYP3CpoI9M="
-							},
-							"name": "Turi",
-							"end1": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAFJybycKMQgNFk=",
-								"_parent": {
-									"$ref": "AAAAAAFJybycKMQf5Ao="
-								},
-								"reference": {
-									"$ref": "AAAAAAFJxFYP3CpoI9M="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAFJybycKcQhNY8=",
-								"_parent": {
-									"$ref": "AAAAAAFJybycKMQf5Ao="
-								},
-								"reference": {
-									"$ref": "AAAAAAFJxFS0zCmojcQ="
+									"$ref": "AAAAAAFJxFWRASoc3kk="
 								},
 								"visibility": "public",
 								"navigable": true,
@@ -332,80 +641,19 @@
 						},
 						{
 							"_type": "UMLAssociation",
-							"_id": "AAAAAAFJybzgq8cmNtE=",
+							"_id": "AAAAAAFJyeM6IwdbueE=",
 							"_parent": {
-								"$ref": "AAAAAAFJxFYP3CpoI9M="
-							},
-							"name": "Turi",
-							"end1": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAFJybzgq8cnPOM=",
-								"_parent": {
-									"$ref": "AAAAAAFJybzgq8cmNtE="
-								},
-								"reference": {
-									"$ref": "AAAAAAFJxFYP3CpoI9M="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAFJybzgq8coh4w=",
-								"_parent": {
-									"$ref": "AAAAAAFJybzgq8cmNtE="
-								},
-								"reference": {
-									"$ref": "AAAAAAFJyYd38TQ4tKQ="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"isDerived": false
-						}
-					],
-					"visibility": "public",
-					"isAbstract": false,
-					"isFinalSpecification": false,
-					"isLeaf": false,
-					"isActive": false
-				},
-				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAFJxFZIASqO9CU=",
-					"_parent": {
-						"$ref": "AAAAAAFJxFOSCijIGFU="
-					},
-					"name": "Reikalavimų suderintuvas",
-					"ownedElements": [
-						{
-							"_type": "UMLAssociation",
-							"_id": "AAAAAAFJyb1WYstVY2Y=",
-							"_parent": {
-								"$ref": "AAAAAAFJxFZIASqO9CU="
+								"$ref": "AAAAAAFJyYd38TQ4tKQ="
 							},
 							"name": "Naudoja",
 							"end1": {
 								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAFJyb1WYstWFuw=",
+								"_id": "AAAAAAFJyeM6JAdcotA=",
 								"_parent": {
-									"$ref": "AAAAAAFJyb1WYstVY2Y="
+									"$ref": "AAAAAAFJyeM6IwdbueE="
 								},
 								"reference": {
-									"$ref": "AAAAAAFJxFZIASqO9CU="
+									"$ref": "AAAAAAFJyYd38TQ4tKQ="
 								},
 								"visibility": "public",
 								"navigable": true,
@@ -418,12 +666,12 @@
 							},
 							"end2": {
 								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAFJyb1WY8tXLUo=",
+								"_id": "AAAAAAFJyeM6JAddUFg=",
 								"_parent": {
-									"$ref": "AAAAAAFJyb1WYstVY2Y="
+									"$ref": "AAAAAAFJyeM6IwdbueE="
 								},
 								"reference": {
-									"$ref": "AAAAAAFJyYd38TQ4tKQ="
+									"$ref": "AAAAAAFJxFaTjCq0mHQ="
 								},
 								"visibility": "public",
 								"navigable": true,
@@ -438,6 +686,7 @@
 							"isDerived": false
 						}
 					],
+					"stereotype": "actor",
 					"visibility": "public",
 					"isAbstract": false,
 					"isFinalSpecification": false,
@@ -446,11 +695,260 @@
 				},
 				{
 					"_type": "UMLClass",
-					"_id": "AAAAAAFJxFaTjCq0mHQ=",
+					"_id": "AAAAAAFJyYfJzzRgBpw=",
 					"_parent": {
 						"$ref": "AAAAAAFJxFOSCijIGFU="
 					},
-					"name": "Paieška",
+					"name": "Žaidimų kūrėjas",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAFJyYkAsTY0Yr8=",
+							"_parent": {
+								"$ref": "AAAAAAFJyYfJzzRgBpw="
+							},
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFJyYkAsTY116M=",
+								"_parent": {
+									"$ref": "AAAAAAFJyYkAsTY0Yr8="
+								},
+								"reference": {
+									"$ref": "AAAAAAFJyYfJzzRgBpw="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFJyYkAsTY2M3Q=",
+								"_parent": {
+									"$ref": "AAAAAAFJyYkAsTY0Yr8="
+								},
+								"name": "Gali būti",
+								"reference": {
+									"$ref": "AAAAAAFJyYcpRTQKLDA="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"visibility": "public",
+							"isDerived": false
+						}
+					],
+					"stereotype": "actor",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecification": false,
+					"isLeaf": false,
+					"isActive": false
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFJyYgi9zSI1/c=",
+					"_parent": {
+						"$ref": "AAAAAAFJxFOSCijIGFU="
+					},
+					"name": "Darbuotojas",
+					"stereotype": "actor",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecification": false,
+					"isLeaf": false,
+					"isActive": false
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFJyYrxxzdpDos=",
+					"_parent": {
+						"$ref": "AAAAAAFJxFOSCijIGFU="
+					},
+					"name": "Administratorius",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAFJyYx05zuHwbQ=",
+							"_parent": {
+								"$ref": "AAAAAAFJyYrxxzdpDos="
+							},
+							"name": "Gali būti",
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFJyYx05zuIORY=",
+								"_parent": {
+									"$ref": "AAAAAAFJyYx05zuHwbQ="
+								},
+								"reference": {
+									"$ref": "AAAAAAFJyYrxxzdpDos="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFJyYx05zuJ34I=",
+								"_parent": {
+									"$ref": "AAAAAAFJyYx05zuHwbQ="
+								},
+								"reference": {
+									"$ref": "AAAAAAFJyYgi9zSI1/c="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"visibility": "public",
+							"isDerived": false
+						}
+					],
+					"stereotype": "actor",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecification": false,
+					"isLeaf": false,
+					"isActive": false
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFJyYv7Pzi8NPY=",
+					"_parent": {
+						"$ref": "AAAAAAFJxFOSCijIGFU="
+					},
+					"name": "Supportas",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAFJyYyx3zzJ9pE=",
+							"_parent": {
+								"$ref": "AAAAAAFJyYv7Pzi8NPY="
+							},
+							"name": "Gali būti",
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFJyYyx3zzKCao=",
+								"_parent": {
+									"$ref": "AAAAAAFJyYyx3zzJ9pE="
+								},
+								"reference": {
+									"$ref": "AAAAAAFJyYv7Pzi8NPY="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFJyYyx3zzLYbk=",
+								"_parent": {
+									"$ref": "AAAAAAFJyYyx3zzJ9pE="
+								},
+								"reference": {
+									"$ref": "AAAAAAFJyYgi9zSI1/c="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"visibility": "public",
+							"isDerived": false
+						}
+					],
+					"stereotype": "actor",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecification": false,
+					"isLeaf": false,
+					"isActive": false
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFJyYwv9joGKtA=",
+					"_parent": {
+						"$ref": "AAAAAAFJxFOSCijIGFU="
+					},
+					"name": " Moderatorius",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAFJyYzOcD2OEhQ=",
+							"_parent": {
+								"$ref": "AAAAAAFJyYwv9joGKtA="
+							},
+							"name": "Gali būti",
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFJyYzOcD2PpBE=",
+								"_parent": {
+									"$ref": "AAAAAAFJyYzOcD2OEhQ="
+								},
+								"reference": {
+									"$ref": "AAAAAAFJyYwv9joGKtA="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFJyYzOcD2QxeI=",
+								"_parent": {
+									"$ref": "AAAAAAFJyYzOcD2OEhQ="
+								},
+								"reference": {
+									"$ref": "AAAAAAFJyYgi9zSI1/c="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"visibility": "public",
+							"isDerived": false
+						}
+					],
+					"stereotype": "actor",
 					"visibility": "public",
 					"isAbstract": false,
 					"isFinalSpecification": false,
@@ -547,11 +1045,11 @@
 									"containerExtending": true,
 									"left": -900,
 									"top": 252,
-									"width": 78,
+									"width": 92,
 									"height": 13,
 									"autoResize": false,
 									"underline": false,
-									"text": "(from Project)",
+									"text": "(from Platforma)",
 									"horizontalAlignment": 2,
 									"verticalAlignment": 5
 								},
@@ -722,7 +1220,7 @@
 									"height": 13,
 									"autoResize": false,
 									"underline": false,
-									"text": "(from ClassDiagram)",
+									"text": "(from Platforma)",
 									"horizontalAlignment": 2,
 									"verticalAlignment": 5
 								},
@@ -978,7 +1476,7 @@
 									"height": 13,
 									"autoResize": false,
 									"underline": false,
-									"text": "(from ClassDiagram)",
+									"text": "(from Platforma)",
 									"horizontalAlignment": 2,
 									"verticalAlignment": 5
 								},
@@ -1234,7 +1732,7 @@
 									"height": 13,
 									"autoResize": false,
 									"underline": false,
-									"text": "(from ClassDiagram)",
+									"text": "(from Platforma)",
 									"horizontalAlignment": 2,
 									"verticalAlignment": 5
 								},
@@ -1490,7 +1988,7 @@
 									"height": 13,
 									"autoResize": false,
 									"underline": false,
-									"text": "(from ClassDiagram)",
+									"text": "(from Platforma)",
 									"horizontalAlignment": 2,
 									"verticalAlignment": 5
 								},
@@ -1746,7 +2244,7 @@
 									"height": 13,
 									"autoResize": false,
 									"underline": false,
-									"text": "(from ClassDiagram)",
+									"text": "(from Platforma)",
 									"horizontalAlignment": 2,
 									"verticalAlignment": 5
 								},
@@ -2002,7 +2500,7 @@
 									"height": 13,
 									"autoResize": false,
 									"underline": false,
-									"text": "(from ClassDiagram)",
+									"text": "(from Platforma)",
 									"horizontalAlignment": 2,
 									"verticalAlignment": 5
 								},
@@ -2258,7 +2756,7 @@
 									"height": 13,
 									"autoResize": false,
 									"underline": false,
-									"text": "(from ClassDiagram)",
+									"text": "(from Platforma)",
 									"horizontalAlignment": 2,
 									"verticalAlignment": 5
 								},
@@ -2514,7 +3012,7 @@
 									"height": 13,
 									"autoResize": false,
 									"underline": false,
-									"text": "(from ClassDiagram)",
+									"text": "(from Platforma)",
 									"horizontalAlignment": 2,
 									"verticalAlignment": 5
 								},
@@ -2767,11 +3265,11 @@
 									"containerExtending": true,
 									"left": 612,
 									"top": 252,
-									"width": 78,
+									"width": 118,
 									"height": 13,
 									"autoResize": false,
 									"underline": false,
-									"text": "(from Project)",
+									"text": "(from ClassDiagram)",
 									"horizontalAlignment": 2,
 									"verticalAlignment": 5
 								},
@@ -3024,11 +3522,11 @@
 									"containerExtending": true,
 									"left": -288,
 									"top": 24,
-									"width": 78,
+									"width": 118,
 									"height": 13,
 									"autoResize": false,
 									"underline": false,
-									"text": "(from Project)",
+									"text": "(from ClassDiagram)",
 									"horizontalAlignment": 2,
 									"verticalAlignment": 5
 								},
@@ -3281,11 +3779,11 @@
 									"containerExtending": true,
 									"left": -120,
 									"top": 12,
-									"width": 78,
+									"width": 118,
 									"height": 13,
 									"autoResize": false,
 									"underline": false,
-									"text": "(from Project)",
+									"text": "(from ClassDiagram)",
 									"horizontalAlignment": 2,
 									"verticalAlignment": 5
 								},
@@ -3538,11 +4036,11 @@
 									"containerExtending": true,
 									"left": -192,
 									"top": -144,
-									"width": 78,
+									"width": 118,
 									"height": 13,
 									"autoResize": false,
 									"underline": false,
-									"text": "(from Project)",
+									"text": "(from ClassDiagram)",
 									"horizontalAlignment": 2,
 									"verticalAlignment": 5
 								},
@@ -5004,11 +5502,11 @@
 									"containerExtending": true,
 									"left": -96,
 									"top": -36,
-									"width": 78,
+									"width": 118,
 									"height": 13,
 									"autoResize": false,
 									"underline": false,
-									"text": "(from Project)",
+									"text": "(from ClassDiagram)",
 									"horizontalAlignment": 2,
 									"verticalAlignment": 5
 								},
@@ -5261,11 +5759,11 @@
 									"containerExtending": true,
 									"left": -192,
 									"top": -48,
-									"width": 78,
+									"width": 118,
 									"height": 13,
 									"autoResize": false,
 									"underline": false,
-									"text": "(from Project)",
+									"text": "(from ClassDiagram)",
 									"horizontalAlignment": 2,
 									"verticalAlignment": 5
 								},
@@ -5518,11 +6016,11 @@
 									"containerExtending": true,
 									"left": -180,
 									"top": -72,
-									"width": 78,
+									"width": 118,
 									"height": 13,
 									"autoResize": false,
 									"underline": false,
-									"text": "(from Project)",
+									"text": "(from ClassDiagram)",
 									"horizontalAlignment": 2,
 									"verticalAlignment": 5
 								},
@@ -10523,881 +11021,8 @@
 					"headQualifiersCompartment": {
 						"$ref": "AAAAAAFJyeM6MwdqNXU="
 					}
-				},
-				{
-					"_type": "UMLClassView",
-					"_id": "AAAAAAFJyevv/wzbd5c=",
-					"_parent": {
-						"$ref": "AAAAAAFJxFOSCijIGFU="
-					},
-					"model": {
-						"$ref": "AAAAAAFJyevv+wzZ4D0="
-					},
-					"subViews": [
-						{
-							"_type": "UMLNameCompartmentView",
-							"_id": "AAAAAAFJyevv/wzc1GE=",
-							"_parent": {
-								"$ref": "AAAAAAFJyevv/wzbd5c="
-							},
-							"model": {
-								"$ref": "AAAAAAFJyevv+wzZ4D0="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAFJyevwAAzdx0c=",
-									"_parent": {
-										"$ref": "AAAAAAFJyevv/wzc1GE="
-									},
-									"visible": false,
-									"enabled": true,
-									"lineColor": "#000000",
-									"fillColor": "#ffffff",
-									"fontColor": "#000000",
-									"font": "Arial;13;0",
-									"parentStyle": true,
-									"containerChangeable": false,
-									"containerExtending": true,
-									"left": 0,
-									"top": 0,
-									"width": 0,
-									"height": 13,
-									"autoResize": false,
-									"underline": false,
-									"horizontalAlignment": 2,
-									"verticalAlignment": 5
-								},
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAFJyevwAAzeDYM=",
-									"_parent": {
-										"$ref": "AAAAAAFJyevv/wzc1GE="
-									},
-									"visible": true,
-									"enabled": true,
-									"lineColor": "#000000",
-									"fillColor": "#ffffff",
-									"fontColor": "#000000",
-									"font": "Arial;13;1",
-									"parentStyle": true,
-									"containerChangeable": false,
-									"containerExtending": true,
-									"left": 781,
-									"top": 227,
-									"width": 79,
-									"height": 13,
-									"autoResize": false,
-									"underline": false,
-									"text": "Taujanskas",
-									"horizontalAlignment": 2,
-									"verticalAlignment": 5
-								},
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAFJyevwAQzfh4M=",
-									"_parent": {
-										"$ref": "AAAAAAFJyevv/wzc1GE="
-									},
-									"visible": false,
-									"enabled": true,
-									"lineColor": "#000000",
-									"fillColor": "#ffffff",
-									"fontColor": "#000000",
-									"font": "Arial;13;0",
-									"parentStyle": true,
-									"containerChangeable": false,
-									"containerExtending": true,
-									"left": 0,
-									"top": 0,
-									"width": 78,
-									"height": 13,
-									"autoResize": false,
-									"underline": false,
-									"text": "(from Project)",
-									"horizontalAlignment": 2,
-									"verticalAlignment": 5
-								},
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAFJyevwAQzg++I=",
-									"_parent": {
-										"$ref": "AAAAAAFJyevv/wzc1GE="
-									},
-									"visible": false,
-									"enabled": true,
-									"lineColor": "#000000",
-									"fillColor": "#ffffff",
-									"fontColor": "#000000",
-									"font": "Arial;13;0",
-									"parentStyle": true,
-									"containerChangeable": false,
-									"containerExtending": true,
-									"left": 0,
-									"top": 0,
-									"width": 0,
-									"height": 13,
-									"autoResize": false,
-									"underline": false,
-									"horizontalAlignment": 1,
-									"verticalAlignment": 5
-								}
-							],
-							"visible": true,
-							"enabled": true,
-							"lineColor": "#000000",
-							"fillColor": "#ffffff",
-							"fontColor": "#000000",
-							"font": "Arial;13;0",
-							"parentStyle": true,
-							"containerChangeable": false,
-							"containerExtending": true,
-							"left": 776,
-							"top": 220,
-							"width": 89,
-							"height": 25,
-							"autoResize": false,
-							"stereotypeLabel": {
-								"$ref": "AAAAAAFJyevwAAzdx0c="
-							},
-							"nameLabel": {
-								"$ref": "AAAAAAFJyevwAAzeDYM="
-							},
-							"namespaceLabel": {
-								"$ref": "AAAAAAFJyevwAQzfh4M="
-							},
-							"propertyLabel": {
-								"$ref": "AAAAAAFJyevwAQzg++I="
-							}
-						},
-						{
-							"_type": "UMLAttributeCompartmentView",
-							"_id": "AAAAAAFJyevwAQzheL8=",
-							"_parent": {
-								"$ref": "AAAAAAFJyevv/wzbd5c="
-							},
-							"model": {
-								"$ref": "AAAAAAFJyevv+wzZ4D0="
-							},
-							"subViews": [
-								{
-									"_type": "UMLAttributeView",
-									"_id": "AAAAAAFJyewWcA/SJrY=",
-									"_parent": {
-										"$ref": "AAAAAAFJyevwAQzheL8="
-									},
-									"model": {
-										"$ref": "AAAAAAFJyewWAA+iwao="
-									},
-									"visible": true,
-									"enabled": true,
-									"lineColor": "#000000",
-									"fillColor": "#ffffff",
-									"fontColor": "#000000",
-									"font": "Arial;13;0",
-									"parentStyle": true,
-									"containerChangeable": false,
-									"containerExtending": true,
-									"left": 781,
-									"top": 250,
-									"width": 79,
-									"height": 13,
-									"autoResize": false,
-									"underline": false,
-									"text": "+Indre",
-									"horizontalAlignment": 0,
-									"verticalAlignment": 5
-								}
-							],
-							"visible": true,
-							"enabled": true,
-							"lineColor": "#000000",
-							"fillColor": "#ffffff",
-							"fontColor": "#000000",
-							"font": "Arial;13;0",
-							"parentStyle": true,
-							"containerChangeable": false,
-							"containerExtending": true,
-							"left": 776,
-							"top": 245,
-							"width": 89,
-							"height": 23,
-							"autoResize": false
-						},
-						{
-							"_type": "UMLOperationCompartmentView",
-							"_id": "AAAAAAFJyevwAQziZmA=",
-							"_parent": {
-								"$ref": "AAAAAAFJyevv/wzbd5c="
-							},
-							"model": {
-								"$ref": "AAAAAAFJyevv+wzZ4D0="
-							},
-							"subViews": [
-								{
-									"_type": "UMLOperationView",
-									"_id": "AAAAAAFJyexaRBJPS2g=",
-									"_parent": {
-										"$ref": "AAAAAAFJyevwAQziZmA="
-									},
-									"model": {
-										"$ref": "AAAAAAFJyexZ4BIf7XU="
-									},
-									"visible": true,
-									"enabled": true,
-									"lineColor": "#000000",
-									"fillColor": "#ffffff",
-									"fontColor": "#000000",
-									"font": "Arial;13;0",
-									"parentStyle": true,
-									"containerChangeable": false,
-									"containerExtending": true,
-									"left": 781,
-									"top": 273,
-									"width": 79,
-									"height": 13,
-									"autoResize": false,
-									"underline": false,
-									"text": "+Lol()",
-									"horizontalAlignment": 0,
-									"verticalAlignment": 5
-								}
-							],
-							"visible": true,
-							"enabled": true,
-							"lineColor": "#000000",
-							"fillColor": "#ffffff",
-							"fontColor": "#000000",
-							"font": "Arial;13;0",
-							"parentStyle": true,
-							"containerChangeable": false,
-							"containerExtending": true,
-							"left": 776,
-							"top": 268,
-							"width": 89,
-							"height": 23,
-							"autoResize": false
-						},
-						{
-							"_type": "UMLTemplateParameterCompartmentView",
-							"_id": "AAAAAAFJyevwAgzjKFo=",
-							"_parent": {
-								"$ref": "AAAAAAFJyevv/wzbd5c="
-							},
-							"model": {
-								"$ref": "AAAAAAFJyevv+wzZ4D0="
-							},
-							"visible": false,
-							"enabled": true,
-							"lineColor": "#000000",
-							"fillColor": "#ffffff",
-							"fontColor": "#000000",
-							"font": "Arial;13;0",
-							"parentStyle": true,
-							"containerChangeable": false,
-							"containerExtending": true,
-							"left": 0,
-							"top": 0,
-							"width": 10,
-							"height": 10,
-							"autoResize": false
-						}
-					],
-					"visible": true,
-					"enabled": true,
-					"lineColor": "#000000",
-					"fillColor": "#ffffff",
-					"fontColor": "#000000",
-					"font": "Arial;13;0",
-					"parentStyle": false,
-					"containerChangeable": false,
-					"containerExtending": true,
-					"left": 776,
-					"top": 220,
-					"width": 89,
-					"height": 71,
-					"autoResize": false,
-					"stereotypeDisplay": "label",
-					"showVisibility": true,
-					"showNamespace": false,
-					"showProperty": true,
-					"showType": true,
-					"nameCompartment": {
-						"$ref": "AAAAAAFJyevv/wzc1GE="
-					},
-					"wordWrap": false,
-					"suppressAttributes": null,
-					"suppressOperations": null,
-					"showMultiplicity": true,
-					"showOperationSignature": true,
-					"attributeCompartment": {
-						"$ref": "AAAAAAFJyevwAQzheL8="
-					},
-					"operationCompartment": {
-						"$ref": "AAAAAAFJyevwAQziZmA="
-					},
-					"templateParameterCompartment": {
-						"$ref": "AAAAAAFJyevwAgzjKFo="
-					}
 				}
 			]
-		},
-		{
-			"_type": "UMLClass",
-			"_id": "AAAAAAFJyYcpRTQKLDA=",
-			"_parent": {
-				"$ref": "AAAAAAFF+h6SjaM2Hec="
-			},
-			"name": "Vartotojas",
-			"ownedElements": [
-				{
-					"_type": "UMLAssociation",
-					"_id": "AAAAAAFJyYkjSTaZWSc=",
-					"_parent": {
-						"$ref": "AAAAAAFJyYcpRTQKLDA="
-					},
-					"name": "Gali būti",
-					"end1": {
-						"_type": "UMLAssociationEnd",
-						"_id": "AAAAAAFJyYkjSTaa5+I=",
-						"_parent": {
-							"$ref": "AAAAAAFJyYkjSTaZWSc="
-						},
-						"reference": {
-							"$ref": "AAAAAAFJyYcpRTQKLDA="
-						},
-						"visibility": "public",
-						"navigable": true,
-						"aggregation": "none",
-						"isReadOnly": false,
-						"isOrdered": false,
-						"isUnique": false,
-						"isDerived": false,
-						"isID": false
-					},
-					"end2": {
-						"_type": "UMLAssociationEnd",
-						"_id": "AAAAAAFJyYkjSTabZpM=",
-						"_parent": {
-							"$ref": "AAAAAAFJyYkjSTaZWSc="
-						},
-						"reference": {
-							"$ref": "AAAAAAFJyYgi9zSI1/c="
-						},
-						"visibility": "public",
-						"navigable": true,
-						"aggregation": "none",
-						"isReadOnly": false,
-						"isOrdered": false,
-						"isUnique": false,
-						"isDerived": false,
-						"isID": false
-					},
-					"visibility": "public",
-					"isDerived": false
-				}
-			],
-			"stereotype": "actor",
-			"visibility": "public",
-			"isAbstract": false,
-			"isFinalSpecification": false,
-			"isLeaf": false,
-			"isActive": false
-		},
-		{
-			"_type": "UMLClass",
-			"_id": "AAAAAAFJyYd38TQ4tKQ=",
-			"_parent": {
-				"$ref": "AAAAAAFF+h6SjaM2Hec="
-			},
-			"name": "Žaidėjas",
-			"ownedElements": [
-				{
-					"_type": "UMLAssociation",
-					"_id": "AAAAAAFJyYiLaTS1xLc=",
-					"_parent": {
-						"$ref": "AAAAAAFJyYd38TQ4tKQ="
-					},
-					"name": "Gali būti",
-					"end1": {
-						"_type": "UMLAssociationEnd",
-						"_id": "AAAAAAFJyYiLaTS2TjU=",
-						"_parent": {
-							"$ref": "AAAAAAFJyYiLaTS1xLc="
-						},
-						"reference": {
-							"$ref": "AAAAAAFJyYd38TQ4tKQ="
-						},
-						"visibility": "public",
-						"navigable": true,
-						"aggregation": "none",
-						"isReadOnly": false,
-						"isOrdered": false,
-						"isUnique": false,
-						"isDerived": false,
-						"isID": false
-					},
-					"end2": {
-						"_type": "UMLAssociationEnd",
-						"_id": "AAAAAAFJyYiLaTS3vS4=",
-						"_parent": {
-							"$ref": "AAAAAAFJyYiLaTS1xLc="
-						},
-						"reference": {
-							"$ref": "AAAAAAFJyYcpRTQKLDA="
-						},
-						"visibility": "public",
-						"navigable": true,
-						"aggregation": "none",
-						"isReadOnly": false,
-						"isOrdered": false,
-						"isUnique": false,
-						"isDerived": false,
-						"isID": false
-					},
-					"visibility": "public",
-					"isDerived": false
-				},
-				{
-					"_type": "UMLAssociation",
-					"_id": "AAAAAAFJyY74iExcFVg=",
-					"_parent": {
-						"$ref": "AAAAAAFJyYd38TQ4tKQ="
-					},
-					"name": "Rašo",
-					"end1": {
-						"_type": "UMLAssociationEnd",
-						"_id": "AAAAAAFJyY74iExdOk0=",
-						"_parent": {
-							"$ref": "AAAAAAFJyY74iExcFVg="
-						},
-						"reference": {
-							"$ref": "AAAAAAFJyYd38TQ4tKQ="
-						},
-						"visibility": "public",
-						"navigable": true,
-						"aggregation": "none",
-						"isReadOnly": false,
-						"isOrdered": false,
-						"isUnique": false,
-						"isDerived": false,
-						"isID": false
-					},
-					"end2": {
-						"_type": "UMLAssociationEnd",
-						"_id": "AAAAAAFJyY74iExeeCM=",
-						"_parent": {
-							"$ref": "AAAAAAFJyY74iExcFVg="
-						},
-						"reference": {
-							"$ref": "AAAAAAFJxFWRASoc3kk="
-						},
-						"visibility": "public",
-						"navigable": true,
-						"aggregation": "none",
-						"isReadOnly": false,
-						"isOrdered": false,
-						"isUnique": false,
-						"isDerived": false,
-						"isID": false
-					},
-					"visibility": "public",
-					"isDerived": false
-				},
-				{
-					"_type": "UMLAssociation",
-					"_id": "AAAAAAFJyeM6IwdbueE=",
-					"_parent": {
-						"$ref": "AAAAAAFJyYd38TQ4tKQ="
-					},
-					"name": "Naudoja",
-					"end1": {
-						"_type": "UMLAssociationEnd",
-						"_id": "AAAAAAFJyeM6JAdcotA=",
-						"_parent": {
-							"$ref": "AAAAAAFJyeM6IwdbueE="
-						},
-						"reference": {
-							"$ref": "AAAAAAFJyYd38TQ4tKQ="
-						},
-						"visibility": "public",
-						"navigable": true,
-						"aggregation": "none",
-						"isReadOnly": false,
-						"isOrdered": false,
-						"isUnique": false,
-						"isDerived": false,
-						"isID": false
-					},
-					"end2": {
-						"_type": "UMLAssociationEnd",
-						"_id": "AAAAAAFJyeM6JAddUFg=",
-						"_parent": {
-							"$ref": "AAAAAAFJyeM6IwdbueE="
-						},
-						"reference": {
-							"$ref": "AAAAAAFJxFaTjCq0mHQ="
-						},
-						"visibility": "public",
-						"navigable": true,
-						"aggregation": "none",
-						"isReadOnly": false,
-						"isOrdered": false,
-						"isUnique": false,
-						"isDerived": false,
-						"isID": false
-					},
-					"visibility": "public",
-					"isDerived": false
-				}
-			],
-			"stereotype": "actor",
-			"visibility": "public",
-			"isAbstract": false,
-			"isFinalSpecification": false,
-			"isLeaf": false,
-			"isActive": false
-		},
-		{
-			"_type": "UMLClass",
-			"_id": "AAAAAAFJyYfJzzRgBpw=",
-			"_parent": {
-				"$ref": "AAAAAAFF+h6SjaM2Hec="
-			},
-			"name": "Žaidimų kūrėjas",
-			"ownedElements": [
-				{
-					"_type": "UMLAssociation",
-					"_id": "AAAAAAFJyYkAsTY0Yr8=",
-					"_parent": {
-						"$ref": "AAAAAAFJyYfJzzRgBpw="
-					},
-					"end1": {
-						"_type": "UMLAssociationEnd",
-						"_id": "AAAAAAFJyYkAsTY116M=",
-						"_parent": {
-							"$ref": "AAAAAAFJyYkAsTY0Yr8="
-						},
-						"reference": {
-							"$ref": "AAAAAAFJyYfJzzRgBpw="
-						},
-						"visibility": "public",
-						"navigable": true,
-						"aggregation": "none",
-						"isReadOnly": false,
-						"isOrdered": false,
-						"isUnique": false,
-						"isDerived": false,
-						"isID": false
-					},
-					"end2": {
-						"_type": "UMLAssociationEnd",
-						"_id": "AAAAAAFJyYkAsTY2M3Q=",
-						"_parent": {
-							"$ref": "AAAAAAFJyYkAsTY0Yr8="
-						},
-						"name": "Gali būti",
-						"reference": {
-							"$ref": "AAAAAAFJyYcpRTQKLDA="
-						},
-						"visibility": "public",
-						"navigable": true,
-						"aggregation": "none",
-						"isReadOnly": false,
-						"isOrdered": false,
-						"isUnique": false,
-						"isDerived": false,
-						"isID": false
-					},
-					"visibility": "public",
-					"isDerived": false
-				}
-			],
-			"stereotype": "actor",
-			"visibility": "public",
-			"isAbstract": false,
-			"isFinalSpecification": false,
-			"isLeaf": false,
-			"isActive": false
-		},
-		{
-			"_type": "UMLClass",
-			"_id": "AAAAAAFJyYgi9zSI1/c=",
-			"_parent": {
-				"$ref": "AAAAAAFF+h6SjaM2Hec="
-			},
-			"name": "Darbuotojas",
-			"stereotype": "actor",
-			"visibility": "public",
-			"isAbstract": false,
-			"isFinalSpecification": false,
-			"isLeaf": false,
-			"isActive": false
-		},
-		{
-			"_type": "UMLClass",
-			"_id": "AAAAAAFJyYrxxzdpDos=",
-			"_parent": {
-				"$ref": "AAAAAAFF+h6SjaM2Hec="
-			},
-			"name": "Administratorius",
-			"ownedElements": [
-				{
-					"_type": "UMLAssociation",
-					"_id": "AAAAAAFJyYx05zuHwbQ=",
-					"_parent": {
-						"$ref": "AAAAAAFJyYrxxzdpDos="
-					},
-					"name": "Gali būti",
-					"end1": {
-						"_type": "UMLAssociationEnd",
-						"_id": "AAAAAAFJyYx05zuIORY=",
-						"_parent": {
-							"$ref": "AAAAAAFJyYx05zuHwbQ="
-						},
-						"reference": {
-							"$ref": "AAAAAAFJyYrxxzdpDos="
-						},
-						"visibility": "public",
-						"navigable": true,
-						"aggregation": "none",
-						"isReadOnly": false,
-						"isOrdered": false,
-						"isUnique": false,
-						"isDerived": false,
-						"isID": false
-					},
-					"end2": {
-						"_type": "UMLAssociationEnd",
-						"_id": "AAAAAAFJyYx05zuJ34I=",
-						"_parent": {
-							"$ref": "AAAAAAFJyYx05zuHwbQ="
-						},
-						"reference": {
-							"$ref": "AAAAAAFJyYgi9zSI1/c="
-						},
-						"visibility": "public",
-						"navigable": true,
-						"aggregation": "none",
-						"isReadOnly": false,
-						"isOrdered": false,
-						"isUnique": false,
-						"isDerived": false,
-						"isID": false
-					},
-					"visibility": "public",
-					"isDerived": false
-				}
-			],
-			"stereotype": "actor",
-			"visibility": "public",
-			"isAbstract": false,
-			"isFinalSpecification": false,
-			"isLeaf": false,
-			"isActive": false
-		},
-		{
-			"_type": "UMLClass",
-			"_id": "AAAAAAFJyYvPAThOnRA=",
-			"_parent": {
-				"$ref": "AAAAAAFF+h6SjaM2Hec="
-			},
-			"name": "Kūrėjas",
-			"visibility": "public",
-			"isAbstract": false,
-			"isFinalSpecification": false,
-			"isLeaf": false,
-			"isActive": false
-		},
-		{
-			"_type": "UMLClass",
-			"_id": "AAAAAAFJyYv7Pzi8NPY=",
-			"_parent": {
-				"$ref": "AAAAAAFF+h6SjaM2Hec="
-			},
-			"name": "Supportas",
-			"ownedElements": [
-				{
-					"_type": "UMLAssociation",
-					"_id": "AAAAAAFJyYyx3zzJ9pE=",
-					"_parent": {
-						"$ref": "AAAAAAFJyYv7Pzi8NPY="
-					},
-					"name": "Gali būti",
-					"end1": {
-						"_type": "UMLAssociationEnd",
-						"_id": "AAAAAAFJyYyx3zzKCao=",
-						"_parent": {
-							"$ref": "AAAAAAFJyYyx3zzJ9pE="
-						},
-						"reference": {
-							"$ref": "AAAAAAFJyYv7Pzi8NPY="
-						},
-						"visibility": "public",
-						"navigable": true,
-						"aggregation": "none",
-						"isReadOnly": false,
-						"isOrdered": false,
-						"isUnique": false,
-						"isDerived": false,
-						"isID": false
-					},
-					"end2": {
-						"_type": "UMLAssociationEnd",
-						"_id": "AAAAAAFJyYyx3zzLYbk=",
-						"_parent": {
-							"$ref": "AAAAAAFJyYyx3zzJ9pE="
-						},
-						"reference": {
-							"$ref": "AAAAAAFJyYgi9zSI1/c="
-						},
-						"visibility": "public",
-						"navigable": true,
-						"aggregation": "none",
-						"isReadOnly": false,
-						"isOrdered": false,
-						"isUnique": false,
-						"isDerived": false,
-						"isID": false
-					},
-					"visibility": "public",
-					"isDerived": false
-				}
-			],
-			"stereotype": "actor",
-			"visibility": "public",
-			"isAbstract": false,
-			"isFinalSpecification": false,
-			"isLeaf": false,
-			"isActive": false
-		},
-		{
-			"_type": "UMLClass",
-			"_id": "AAAAAAFJyYwv9joGKtA=",
-			"_parent": {
-				"$ref": "AAAAAAFF+h6SjaM2Hec="
-			},
-			"name": " Moderatorius",
-			"ownedElements": [
-				{
-					"_type": "UMLAssociation",
-					"_id": "AAAAAAFJyYzOcD2OEhQ=",
-					"_parent": {
-						"$ref": "AAAAAAFJyYwv9joGKtA="
-					},
-					"name": "Gali būti",
-					"end1": {
-						"_type": "UMLAssociationEnd",
-						"_id": "AAAAAAFJyYzOcD2PpBE=",
-						"_parent": {
-							"$ref": "AAAAAAFJyYzOcD2OEhQ="
-						},
-						"reference": {
-							"$ref": "AAAAAAFJyYwv9joGKtA="
-						},
-						"visibility": "public",
-						"navigable": true,
-						"aggregation": "none",
-						"isReadOnly": false,
-						"isOrdered": false,
-						"isUnique": false,
-						"isDerived": false,
-						"isID": false
-					},
-					"end2": {
-						"_type": "UMLAssociationEnd",
-						"_id": "AAAAAAFJyYzOcD2QxeI=",
-						"_parent": {
-							"$ref": "AAAAAAFJyYzOcD2OEhQ="
-						},
-						"reference": {
-							"$ref": "AAAAAAFJyYgi9zSI1/c="
-						},
-						"visibility": "public",
-						"navigable": true,
-						"aggregation": "none",
-						"isReadOnly": false,
-						"isOrdered": false,
-						"isUnique": false,
-						"isDerived": false,
-						"isID": false
-					},
-					"visibility": "public",
-					"isDerived": false
-				}
-			],
-			"stereotype": "actor",
-			"visibility": "public",
-			"isAbstract": false,
-			"isFinalSpecification": false,
-			"isLeaf": false,
-			"isActive": false
-		},
-		{
-			"_type": "UMLModel",
-			"_id": "AAAAAAFJybozhrBobe4=",
-			"_parent": {
-				"$ref": "AAAAAAFF+h6SjaM2Hec="
-			},
-			"name": "Platforma",
-			"visibility": "public"
-		},
-		{
-			"_type": "UMLPackage",
-			"_id": "AAAAAAFJybsmZLiwluU=",
-			"_parent": {
-				"$ref": "AAAAAAFF+h6SjaM2Hec="
-			},
-			"name": "Platforma",
-			"visibility": "public"
-		},
-		{
-			"_type": "UMLClass",
-			"_id": "AAAAAAFJyevv+wzZ4D0=",
-			"_parent": {
-				"$ref": "AAAAAAFF+h6SjaM2Hec="
-			},
-			"name": "Taujanskas",
-			"visibility": "public",
-			"attributes": [
-				{
-					"_type": "UMLAttribute",
-					"_id": "AAAAAAFJyewWAA+iwao=",
-					"_parent": {
-						"$ref": "AAAAAAFJyevv+wzZ4D0="
-					},
-					"name": "Indre",
-					"visibility": "public",
-					"isStatic": false,
-					"isLeaf": false,
-					"isReadOnly": false,
-					"isOrdered": false,
-					"isUnique": false,
-					"isDerived": false,
-					"aggregation": "none",
-					"isID": false
-				}
-			],
-			"operations": [
-				{
-					"_type": "UMLOperation",
-					"_id": "AAAAAAFJyexZ4BIf7XU=",
-					"_parent": {
-						"$ref": "AAAAAAFJyevv+wzZ4D0="
-					},
-					"name": "Lol",
-					"visibility": "public",
-					"isStatic": false,
-					"isLeaf": false,
-					"concurrency": "sequential",
-					"isQuery": false,
-					"isAbstract": false
-				}
-			],
-			"isAbstract": false,
-			"isFinalSpecification": false,
-			"isLeaf": false,
-			"isActive": false
 		}
 	]
 }
