@@ -84,6 +84,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -140,6 +141,8 @@
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
 >>>>>>> parent of d08ab67... PAckage + associacions
+=======
+>>>>>>> parent of b810dbe... Class diagram quick update
 					"visibility": "public",
 					"isAbstract": false,
 					"isFinalSpecification": false,
@@ -153,6 +156,7 @@
 						"$ref": "AAAAAAFJxFOSCijIGFU="
 					},
 					"name": "Žaidimų biblioteka",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -259,6 +263,8 @@
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
 >>>>>>> parent of d08ab67... PAckage + associacions
+=======
+>>>>>>> parent of b810dbe... Class diagram quick update
 					"visibility": "public",
 					"isAbstract": false,
 					"isFinalSpecification": false,
@@ -272,6 +278,7 @@
 						"$ref": "AAAAAAFJxFOSCijIGFU="
 					},
 					"name": "Reikalavimų suderintuvas",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -332,6 +339,8 @@
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
 >>>>>>> parent of d08ab67... PAckage + associacions
+=======
+>>>>>>> parent of b810dbe... Class diagram quick update
 					"visibility": "public",
 					"isAbstract": false,
 					"isFinalSpecification": false,
@@ -3131,6 +3140,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"text": "(from ClassDiagram)",
 =======
 									"top": 252,
@@ -3140,6 +3150,9 @@
 									"underline": false,
 									"text": "(from Project)",
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"text": "(from Project)",
+>>>>>>> parent of b810dbe... Class diagram quick update
 =======
 									"text": "(from Project)",
 >>>>>>> parent of b810dbe... Class diagram quick update
@@ -3460,6 +3473,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"text": "(from ClassDiagram)",
 =======
 									"left": -288,
@@ -3470,6 +3484,9 @@
 									"underline": false,
 									"text": "(from Project)",
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"text": "(from Project)",
+>>>>>>> parent of b810dbe... Class diagram quick update
 =======
 									"text": "(from Project)",
 >>>>>>> parent of b810dbe... Class diagram quick update
@@ -3796,6 +3813,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"text": "(from ClassDiagram)",
 =======
 									"left": -120,
@@ -3806,6 +3824,9 @@
 									"underline": false,
 									"text": "(from Project)",
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"text": "(from Project)",
+>>>>>>> parent of b810dbe... Class diagram quick update
 =======
 									"text": "(from Project)",
 >>>>>>> parent of b810dbe... Class diagram quick update
@@ -4127,6 +4148,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"width": 118,
 									"height": 13,
 									"autoResize": false,
@@ -4139,6 +4161,13 @@
 									"underline": false,
 									"text": "(from Project)",
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"width": 78,
+									"height": 13,
+									"autoResize": false,
+									"underline": false,
+									"text": "(from Project)",
+>>>>>>> parent of b810dbe... Class diagram quick update
 =======
 									"width": 78,
 									"height": 13,
@@ -5815,6 +5844,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"text": "(from ClassDiagram)",
 =======
 									"left": -96,
@@ -5825,6 +5855,9 @@
 									"underline": false,
 									"text": "(from Project)",
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"text": "(from Project)",
+>>>>>>> parent of b810dbe... Class diagram quick update
 =======
 									"text": "(from Project)",
 >>>>>>> parent of b810dbe... Class diagram quick update
@@ -6154,6 +6187,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"text": "(from ClassDiagram)",
 =======
 									"left": -192,
@@ -6164,6 +6198,9 @@
 									"underline": false,
 									"text": "(from Project)",
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"text": "(from Project)",
+>>>>>>> parent of b810dbe... Class diagram quick update
 =======
 									"text": "(from Project)",
 >>>>>>> parent of b810dbe... Class diagram quick update
@@ -6497,6 +6534,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"text": "(from ClassDiagram)",
 =======
 									"left": -180,
@@ -6507,6 +6545,9 @@
 									"underline": false,
 									"text": "(from Project)",
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"text": "(from Project)",
+>>>>>>> parent of b810dbe... Class diagram quick update
 =======
 									"text": "(from Project)",
 >>>>>>> parent of b810dbe... Class diagram quick update
@@ -11504,6 +11545,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of b810dbe... Class diagram quick update
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
@@ -11572,7 +11616,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"stereotype": "actor",
+=======
+>>>>>>> parent of b810dbe... Class diagram quick update
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
@@ -11692,7 +11739,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"stereotype": "actor",
+=======
+>>>>>>> parent of b810dbe... Class diagram quick update
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
@@ -11766,7 +11816,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"stereotype": "actor",
+=======
+>>>>>>> parent of b810dbe... Class diagram quick update
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
@@ -11792,7 +11845,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"stereotype": "actor",
+=======
+>>>>>>> parent of b810dbe... Class diagram quick update
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
@@ -11866,7 +11922,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"stereotype": "actor",
+=======
+>>>>>>> parent of b810dbe... Class diagram quick update
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
@@ -11953,7 +12012,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"stereotype": "actor",
+=======
+>>>>>>> parent of b810dbe... Class diagram quick update
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
@@ -11978,7 +12040,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"name": " Moderatorius",
+=======
+			"name": "Moderatorius",
+>>>>>>> parent of b810dbe... Class diagram quick update
 =======
 			"name": "Moderatorius",
 >>>>>>> parent of b810dbe... Class diagram quick update
@@ -12043,7 +12109,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"stereotype": "actor",
+=======
+>>>>>>> parent of b810dbe... Class diagram quick update
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
@@ -12057,6 +12126,7 @@
 			"isFinalSpecification": false,
 			"isLeaf": false,
 			"isActive": false
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12092,6 +12162,8 @@
 				}
 			]
 >>>>>>> parent of d08ab67... PAckage + associacions
+=======
+>>>>>>> parent of b810dbe... Class diagram quick update
 		}
 	]
 }
