@@ -28,100 +28,6 @@
 						"$ref": "AAAAAAFJxFOSCijIGFU="
 					},
 					"name": "Žaidimai",
-					"ownedElements": [
-						{
-							"_type": "UMLAssociation",
-							"_id": "AAAAAAFJyY7acErWzWU=",
-							"_parent": {
-								"$ref": "AAAAAAFJxFS0zCmojcQ="
-							},
-							"name": "Turi",
-							"end1": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAFJyY7acErXXt4=",
-								"_parent": {
-									"$ref": "AAAAAAFJyY7acErWzWU="
-								},
-								"reference": {
-									"$ref": "AAAAAAFJxFS0zCmojcQ="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAFJyY7acErYAHg=",
-								"_parent": {
-									"$ref": "AAAAAAFJyY7acErWzWU="
-								},
-								"reference": {
-									"$ref": "AAAAAAFJxFVXUyn2iLI="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"isDerived": false
-						},
-						{
-							"_type": "UMLAssociation",
-							"_id": "AAAAAAFJyY828k7KmII=",
-							"_parent": {
-								"$ref": "AAAAAAFJxFS0zCmojcQ="
-							},
-							"name": "Turi",
-							"end1": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAFJyY828k7LN9Q=",
-								"_parent": {
-									"$ref": "AAAAAAFJyY828k7KmII="
-								},
-								"reference": {
-									"$ref": "AAAAAAFJxFS0zCmojcQ="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAFJyY828k7Msso=",
-								"_parent": {
-									"$ref": "AAAAAAFJyY828k7KmII="
-								},
-								"reference": {
-									"$ref": "AAAAAAFJxFUNuSnQPaE="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"isDerived": false
-						}
-					],
 					"visibility": "public",
 					"isAbstract": false,
 					"isFinalSpecification": false,
@@ -148,54 +54,6 @@
 						"$ref": "AAAAAAFJxFOSCijIGFU="
 					},
 					"name": "Parduotuvė",
-					"ownedElements": [
-						{
-							"_type": "UMLAssociation",
-							"_id": "AAAAAAFJyY6HYEhmtd0=",
-							"_parent": {
-								"$ref": "AAAAAAFJxFVXUyn2iLI="
-							},
-							"name": "Apsiperka",
-							"end1": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAFJyY6HYEhnA+M=",
-								"_parent": {
-									"$ref": "AAAAAAFJyY6HYEhmtd0="
-								},
-								"reference": {
-									"$ref": "AAAAAAFJxFVXUyn2iLI="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"end2": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAFJyY6HYEhopuQ=",
-								"_parent": {
-									"$ref": "AAAAAAFJyY6HYEhmtd0="
-								},
-								"reference": {
-									"$ref": "AAAAAAFJyYd38TQ4tKQ="
-								},
-								"visibility": "public",
-								"navigable": true,
-								"aggregation": "none",
-								"isReadOnly": false,
-								"isOrdered": false,
-								"isUnique": false,
-								"isDerived": false,
-								"isID": false
-							},
-							"visibility": "public",
-							"isDerived": false
-						}
-					],
 					"visibility": "public",
 					"isAbstract": false,
 					"isFinalSpecification": false,
@@ -222,6 +80,7 @@
 						"$ref": "AAAAAAFJxFOSCijIGFU="
 					},
 					"name": "Registracija",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -279,6 +138,8 @@
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
+=======
+>>>>>>> parent of d08ab67... PAckage + associacions
 					"visibility": "public",
 					"isAbstract": false,
 					"isFinalSpecification": false,
@@ -292,6 +153,7 @@
 						"$ref": "AAAAAAFJxFOSCijIGFU="
 					},
 					"name": "Žaidimų biblioteka",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -395,6 +257,8 @@
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
+=======
+>>>>>>> parent of d08ab67... PAckage + associacions
 					"visibility": "public",
 					"isAbstract": false,
 					"isFinalSpecification": false,
@@ -408,6 +272,7 @@
 						"$ref": "AAAAAAFJxFOSCijIGFU="
 					},
 					"name": "Reikalavimų suderintuvas",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -465,6 +330,8 @@
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
+=======
+>>>>>>> parent of d08ab67... PAckage + associacions
 					"visibility": "public",
 					"isAbstract": false,
 					"isFinalSpecification": false,
@@ -488,177 +355,6 @@
 			"visible": true,
 			"defaultDiagram": false,
 			"ownedViews": [
-				{
-					"_type": "UMLPackageView",
-					"_id": "AAAAAAFJybsmZriyphA=",
-					"_parent": {
-						"$ref": "AAAAAAFJxFOSCijIGFU="
-					},
-					"model": {
-						"$ref": "AAAAAAFJybsmZLiwluU="
-					},
-					"subViews": [
-						{
-							"_type": "UMLNameCompartmentView",
-							"_id": "AAAAAAFJybsmZrizFl4=",
-							"_parent": {
-								"$ref": "AAAAAAFJybsmZriyphA="
-							},
-							"model": {
-								"$ref": "AAAAAAFJybsmZLiwluU="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAFJybsmZri0ipE=",
-									"_parent": {
-										"$ref": "AAAAAAFJybsmZrizFl4="
-									},
-									"visible": false,
-									"enabled": true,
-									"lineColor": "#000000",
-									"fillColor": "#ffffff",
-									"fontColor": "#000000",
-									"font": "Arial;13;0",
-									"parentStyle": true,
-									"containerChangeable": false,
-									"containerExtending": true,
-									"left": -900,
-									"top": 252,
-									"width": 0,
-									"height": 13,
-									"autoResize": false,
-									"underline": false,
-									"horizontalAlignment": 2,
-									"verticalAlignment": 5
-								},
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAFJybsmZ7i1wUQ=",
-									"_parent": {
-										"$ref": "AAAAAAFJybsmZrizFl4="
-									},
-									"visible": true,
-									"enabled": true,
-									"lineColor": "#000000",
-									"fillColor": "#ffffff",
-									"fontColor": "#000000",
-									"font": "Arial;13;1",
-									"parentStyle": true,
-									"containerChangeable": false,
-									"containerExtending": true,
-									"left": 13,
-									"top": 250,
-									"width": 511,
-									"height": 13,
-									"autoResize": false,
-									"underline": false,
-									"text": "Platforma",
-									"horizontalAlignment": 2,
-									"verticalAlignment": 5
-								},
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAFJybsmZ7i2AH4=",
-									"_parent": {
-										"$ref": "AAAAAAFJybsmZrizFl4="
-									},
-									"visible": false,
-									"enabled": true,
-									"lineColor": "#000000",
-									"fillColor": "#ffffff",
-									"fontColor": "#000000",
-									"font": "Arial;13;0",
-									"parentStyle": true,
-									"containerChangeable": false,
-									"containerExtending": true,
-									"left": -900,
-									"top": 252,
-									"width": 78,
-									"height": 13,
-									"autoResize": false,
-									"underline": false,
-									"text": "(from Project)",
-									"horizontalAlignment": 2,
-									"verticalAlignment": 5
-								},
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAFJybsmZ7i3twg=",
-									"_parent": {
-										"$ref": "AAAAAAFJybsmZrizFl4="
-									},
-									"visible": false,
-									"enabled": true,
-									"lineColor": "#000000",
-									"fillColor": "#ffffff",
-									"fontColor": "#000000",
-									"font": "Arial;13;0",
-									"parentStyle": true,
-									"containerChangeable": false,
-									"containerExtending": true,
-									"left": -900,
-									"top": 252,
-									"width": 0,
-									"height": 13,
-									"autoResize": false,
-									"underline": false,
-									"horizontalAlignment": 1,
-									"verticalAlignment": 5
-								}
-							],
-							"visible": true,
-							"enabled": true,
-							"lineColor": "#000000",
-							"fillColor": "#ffffff",
-							"fontColor": "#000000",
-							"font": "Arial;13;0",
-							"parentStyle": true,
-							"containerChangeable": false,
-							"containerExtending": true,
-							"left": 8,
-							"top": 243,
-							"width": 521,
-							"height": 25,
-							"autoResize": false,
-							"stereotypeLabel": {
-								"$ref": "AAAAAAFJybsmZri0ipE="
-							},
-							"nameLabel": {
-								"$ref": "AAAAAAFJybsmZ7i1wUQ="
-							},
-							"namespaceLabel": {
-								"$ref": "AAAAAAFJybsmZ7i2AH4="
-							},
-							"propertyLabel": {
-								"$ref": "AAAAAAFJybsmZ7i3twg="
-							}
-						}
-					],
-					"visible": true,
-					"enabled": true,
-					"lineColor": "#000000",
-					"fillColor": "#ffffff",
-					"fontColor": "#000000",
-					"font": "Arial;13;0",
-					"parentStyle": false,
-					"containerChangeable": false,
-					"containerExtending": true,
-					"left": 8,
-					"top": 228,
-					"width": 521,
-					"height": 401,
-					"autoResize": false,
-					"stereotypeDisplay": "label",
-					"showVisibility": true,
-					"showNamespace": false,
-					"showProperty": true,
-					"showType": true,
-					"nameCompartment": {
-						"$ref": "AAAAAAFJybsmZrizFl4="
-					},
-					"wordWrap": false
-				},
 				{
 					"_type": "UMLClassView",
 					"_id": "AAAAAAFJxFS0zCmqhzY=",
@@ -695,12 +391,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": -552,
 									"top": 564,
 =======
 									"left": -720,
 									"top": 756,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": -660,
+									"top": -324,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -724,12 +425,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 77,
 									"top": 359,
 =======
 									"left": 21,
 									"top": 423,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": 41,
+									"top": 63,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 55,
 									"height": 13,
 									"autoResize": false,
@@ -754,12 +460,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": -552,
 									"top": 564,
 =======
 									"left": -720,
 									"top": 756,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": -660,
+									"top": -324,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 118,
 									"height": 13,
 									"autoResize": false,
@@ -784,12 +495,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": -552,
 									"top": 564,
 =======
 									"left": -720,
 									"top": 756,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": -660,
+									"top": -324,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -808,12 +524,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 72,
 							"top": 352,
 =======
 							"left": 16,
 							"top": 416,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": 36,
+							"top": 56,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 65,
 							"height": 25,
 							"autoResize": false,
@@ -849,12 +570,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 72,
 							"top": 377,
 =======
 							"left": 16,
 							"top": 441,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": 36,
+							"top": 81,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 65,
 							"height": 10,
 							"autoResize": false
@@ -878,12 +604,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 72,
 							"top": 387,
 =======
 							"left": 16,
 							"top": 451,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": 36,
+							"top": 91,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 65,
 							"height": 10,
 							"autoResize": false
@@ -907,12 +638,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": -368,
 							"top": 376,
 =======
 							"left": -480,
 							"top": 504,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": -440,
+							"top": -216,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 10,
 							"height": 10,
 							"autoResize": false
@@ -928,12 +664,17 @@
 					"containerChangeable": false,
 					"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"left": 72,
 					"top": 352,
 =======
 					"left": 16,
 					"top": 416,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+					"left": 36,
+					"top": 56,
+>>>>>>> parent of d08ab67... PAckage + associacions
 					"width": 65,
 					"height": 45,
 					"autoResize": false,
@@ -946,8 +687,6 @@
 						"$ref": "AAAAAAFJxFS00SmrmoY="
 					},
 					"wordWrap": false,
-					"suppressAttributes": false,
-					"suppressOperations": false,
 					"showMultiplicity": true,
 					"showOperationSignature": true,
 					"attributeCompartment": {
@@ -996,12 +735,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 24,
 									"top": 24,
 =======
 									"left": -108,
 									"top": 312,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": -60,
+									"top": 480,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -1025,12 +769,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 69,
 									"top": 183,
 =======
 									"left": 25,
 									"top": 279,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": 41,
+									"top": 335,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 70,
 									"height": 13,
 									"autoResize": false,
@@ -1055,12 +804,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 24,
 									"top": 24,
 =======
 									"left": -108,
 									"top": 312,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": -60,
+									"top": 480,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 118,
 									"height": 13,
 									"autoResize": false,
@@ -1085,12 +839,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 24,
 									"top": 24,
 =======
 									"left": -108,
 									"top": 312,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": -60,
+									"top": 480,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -1109,12 +868,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 64,
 							"top": 176,
 =======
 							"left": 20,
 							"top": 272,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": 36,
+							"top": 328,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 80,
 							"height": 25,
 							"autoResize": false,
@@ -1150,12 +914,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 64,
 							"top": 201,
 =======
 							"left": 20,
 							"top": 297,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": 36,
+							"top": 353,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 80,
 							"height": 10,
 							"autoResize": false
@@ -1179,12 +948,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 64,
 							"top": 211,
 =======
 							"left": 20,
 							"top": 307,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": 36,
+							"top": 363,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 80,
 							"height": 10,
 							"autoResize": false
@@ -1208,12 +982,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 16,
 							"top": 16,
 =======
 							"left": -72,
 							"top": 208,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": -40,
+							"top": 320,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 10,
 							"height": 10,
 							"autoResize": false
@@ -1229,12 +1008,17 @@
 					"containerChangeable": false,
 					"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"left": 64,
 					"top": 176,
 =======
 					"left": 20,
 					"top": 272,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+					"left": 36,
+					"top": 328,
+>>>>>>> parent of d08ab67... PAckage + associacions
 					"width": 80,
 					"height": 45,
 					"autoResize": false,
@@ -1247,8 +1031,6 @@
 						"$ref": "AAAAAAFJxFUNuSnTPoA="
 					},
 					"wordWrap": false,
-					"suppressAttributes": false,
-					"suppressOperations": false,
 					"showMultiplicity": true,
 					"showOperationSignature": true,
 					"attributeCompartment": {
@@ -1297,12 +1079,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 0,
 									"top": 696,
 =======
 									"left": -132,
 									"top": 732,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": -96,
+									"top": 624,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -1326,12 +1113,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 69,
 									"top": 511,
 =======
 									"left": 25,
 									"top": 523,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": 37,
+									"top": 487,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 73,
 									"height": 13,
 									"autoResize": false,
@@ -1356,12 +1148,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 0,
 									"top": 696,
 =======
 									"left": -132,
 									"top": 732,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": -96,
+									"top": 624,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 118,
 									"height": 13,
 									"autoResize": false,
@@ -1386,12 +1183,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 0,
 									"top": 696,
 =======
 									"left": -132,
 									"top": 732,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": -96,
+									"top": 624,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -1410,12 +1212,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 64,
 							"top": 504,
 =======
 							"left": 20,
 							"top": 516,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": 32,
+							"top": 480,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 83,
 							"height": 25,
 							"autoResize": false,
@@ -1451,12 +1258,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 64,
 							"top": 529,
 =======
 							"left": 20,
 							"top": 541,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": 32,
+							"top": 505,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 83,
 							"height": 10,
 							"autoResize": false
@@ -1480,12 +1292,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 64,
 							"top": 539,
 =======
 							"left": 20,
 							"top": 551,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": 32,
+							"top": 515,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 83,
 							"height": 10,
 							"autoResize": false
@@ -1509,12 +1326,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 0,
 							"top": 464,
 =======
 							"left": -88,
 							"top": 488,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": -64,
+							"top": 416,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 10,
 							"height": 10,
 							"autoResize": false
@@ -1530,12 +1352,17 @@
 					"containerChangeable": false,
 					"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"left": 64,
 					"top": 504,
 =======
 					"left": 20,
 					"top": 516,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+					"left": 32,
+					"top": 480,
+>>>>>>> parent of d08ab67... PAckage + associacions
 					"width": 83,
 					"height": 45,
 					"autoResize": false,
@@ -1548,8 +1375,6 @@
 						"$ref": "AAAAAAFJxFVXUyn5c3c="
 					},
 					"wordWrap": false,
-					"suppressAttributes": false,
-					"suppressOperations": false,
 					"showMultiplicity": true,
 					"showOperationSignature": true,
 					"attributeCompartment": {
@@ -1598,12 +1423,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 576,
 									"top": -36,
 =======
 									"left": 1176,
 									"top": 588,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": -108,
+									"top": -492,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -1627,12 +1457,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 269,
 									"top": 367,
 =======
 									"left": 469,
 									"top": 575,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": 41,
+									"top": 215,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 45,
 									"height": 13,
 									"autoResize": false,
@@ -1657,12 +1492,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 576,
 									"top": -36,
 =======
 									"left": 1176,
 									"top": 588,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": -108,
+									"top": -492,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 118,
 									"height": 13,
 									"autoResize": false,
@@ -1687,12 +1527,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 576,
 									"top": -36,
 =======
 									"left": 1176,
 									"top": 588,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": -108,
+									"top": -492,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -1711,12 +1556,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 264,
 							"top": 360,
 =======
 							"left": 464,
 							"top": 568,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": 36,
+							"top": 208,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 55,
 							"height": 25,
 							"autoResize": false,
@@ -1752,12 +1602,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 264,
 							"top": 385,
 =======
 							"left": 464,
 							"top": 593,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": 36,
+							"top": 233,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 55,
 							"height": 10,
 							"autoResize": false
@@ -1781,12 +1636,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 264,
 							"top": 395,
 =======
 							"left": 464,
 							"top": 603,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": 36,
+							"top": 243,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 55,
 							"height": 10,
 							"autoResize": false
@@ -1810,12 +1670,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 384,
 							"top": -24,
 =======
 							"left": 784,
 							"top": 392,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": -72,
+							"top": -328,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 10,
 							"height": 10,
 							"autoResize": false
@@ -1831,12 +1696,17 @@
 					"containerChangeable": false,
 					"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"left": 264,
 					"top": 360,
 =======
 					"left": 464,
 					"top": 568,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+					"left": 36,
+					"top": 208,
+>>>>>>> parent of d08ab67... PAckage + associacions
 					"width": 55,
 					"height": 45,
 					"autoResize": false,
@@ -1849,8 +1719,6 @@
 						"$ref": "AAAAAAFJxFWRASoft7k="
 					},
 					"wordWrap": false,
-					"suppressAttributes": false,
-					"suppressOperations": false,
 					"showMultiplicity": true,
 					"showOperationSignature": true,
 					"attributeCompartment": {
@@ -1899,12 +1767,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 2352,
 									"top": -972,
 =======
 									"left": 1056,
 									"top": -156,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": 2004,
+									"top": -756,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -1928,12 +1801,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 853,
 									"top": 139,
 =======
 									"left": 421,
 									"top": 411,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": 737,
+									"top": 211,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 75,
 									"height": 13,
 									"autoResize": false,
@@ -1958,12 +1836,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 2352,
 									"top": -972,
 =======
 									"left": 1056,
 									"top": -156,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": 2004,
+									"top": -756,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 118,
 									"height": 13,
 									"autoResize": false,
@@ -1988,12 +1871,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 2352,
 									"top": -972,
 =======
 									"left": 1056,
 									"top": -156,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": 2004,
+									"top": -756,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -2012,12 +1900,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 848,
 							"top": 132,
 =======
 							"left": 416,
 							"top": 404,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": 732,
+							"top": 204,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 85,
 							"height": 25,
 							"autoResize": false,
@@ -2053,12 +1946,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 848,
 							"top": 157,
 =======
 							"left": 416,
 							"top": 429,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": 732,
+							"top": 229,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 85,
 							"height": 10,
 							"autoResize": false
@@ -2082,12 +1980,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 848,
 							"top": 167,
 =======
 							"left": 416,
 							"top": 439,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": 732,
+							"top": 239,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 85,
 							"height": 10,
 							"autoResize": false
@@ -2111,12 +2014,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 1568,
 							"top": -648,
 =======
 							"left": 704,
 							"top": -104,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": 1336,
+							"top": -504,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 10,
 							"height": 10,
 							"autoResize": false
@@ -2132,12 +2040,17 @@
 					"containerChangeable": false,
 					"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"left": 848,
 					"top": 132,
 =======
 					"left": 416,
 					"top": 404,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+					"left": 732,
+					"top": 204,
+>>>>>>> parent of d08ab67... PAckage + associacions
 					"width": 85,
 					"height": 45,
 					"autoResize": false,
@@ -2150,8 +2063,6 @@
 						"$ref": "AAAAAAFJxFXoUipFMyQ="
 					},
 					"wordWrap": false,
-					"suppressAttributes": false,
-					"suppressOperations": false,
 					"showMultiplicity": true,
 					"showOperationSignature": true,
 					"attributeCompartment": {
@@ -2200,12 +2111,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 1428,
 									"top": -1200,
 =======
 									"left": 108,
 									"top": -660,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": 1944,
+									"top": -600,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -2229,12 +2145,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 553,
 									"top": 155,
 =======
 									"left": 113,
 									"top": 335,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": 725,
+									"top": 355,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 118,
 									"height": 13,
 									"autoResize": false,
@@ -2259,12 +2180,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 1428,
 									"top": -1200,
 =======
 									"left": 108,
 									"top": -660,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": 1944,
+									"top": -600,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 118,
 									"height": 13,
 									"autoResize": false,
@@ -2289,12 +2215,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 1428,
 									"top": -1200,
 =======
 									"left": 108,
 									"top": -660,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": 1944,
+									"top": -600,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -2313,12 +2244,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 548,
 							"top": 148,
 =======
 							"left": 108,
 							"top": 328,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": 720,
+							"top": 348,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 128,
 							"height": 25,
 							"autoResize": false,
@@ -2354,12 +2290,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 548,
 							"top": 173,
 =======
 							"left": 108,
 							"top": 353,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": 720,
+							"top": 373,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 128,
 							"height": 10,
 							"autoResize": false
@@ -2383,12 +2324,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 548,
 							"top": 183,
 =======
 							"left": 108,
 							"top": 363,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": 720,
+							"top": 383,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 128,
 							"height": 10,
 							"autoResize": false
@@ -2412,12 +2358,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 952,
 							"top": -800,
 =======
 							"left": 72,
 							"top": -440,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": 1296,
+							"top": -400,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 10,
 							"height": 10,
 							"autoResize": false
@@ -2433,12 +2384,17 @@
 					"containerChangeable": false,
 					"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"left": 548,
 					"top": 148,
 =======
 					"left": 108,
 					"top": 328,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+					"left": 720,
+					"top": 348,
+>>>>>>> parent of d08ab67... PAckage + associacions
 					"width": 128,
 					"height": 45,
 					"autoResize": false,
@@ -2451,8 +2407,6 @@
 						"$ref": "AAAAAAFJxFYP3Cprt7g="
 					},
 					"wordWrap": false,
-					"suppressAttributes": false,
-					"suppressOperations": false,
 					"showMultiplicity": true,
 					"showOperationSignature": true,
 					"attributeCompartment": {
@@ -2501,12 +2455,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 1644,
 									"top": 540,
 =======
 									"left": -264,
 									"top": 1044,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": 1188,
+									"top": 1272,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -2530,12 +2489,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 837,
 									"top": 251,
 =======
 									"left": 201,
 									"top": 419,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": 685,
+									"top": 495,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 163,
 									"height": 13,
 									"autoResize": false,
@@ -2560,12 +2524,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 1644,
 									"top": 540,
 =======
 									"left": -264,
 									"top": 1044,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": 1188,
+									"top": 1272,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 118,
 									"height": 13,
 									"autoResize": false,
@@ -2590,12 +2559,17 @@
 									"containerChangeable": false,
 									"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"left": 1644,
 									"top": 540,
 =======
 									"left": -264,
 									"top": 1044,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+									"left": 1188,
+									"top": 1272,
+>>>>>>> parent of d08ab67... PAckage + associacions
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -2614,12 +2588,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 832,
 							"top": 244,
 =======
 							"left": 196,
 							"top": 412,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": 680,
+							"top": 488,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 173,
 							"height": 25,
 							"autoResize": false,
@@ -2655,12 +2634,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 832,
 							"top": 269,
 =======
 							"left": 196,
 							"top": 437,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": 680,
+							"top": 513,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 173,
 							"height": 10,
 							"autoResize": false
@@ -2684,12 +2668,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 832,
 							"top": 279,
 =======
 							"left": 196,
 							"top": 447,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": 680,
+							"top": 523,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 173,
 							"height": 10,
 							"autoResize": false
@@ -2713,12 +2702,17 @@
 							"containerChangeable": false,
 							"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"left": 1096,
 							"top": 360,
 =======
 							"left": -176,
 							"top": 696,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+							"left": 792,
+							"top": 848,
+>>>>>>> parent of d08ab67... PAckage + associacions
 							"width": 10,
 							"height": 10,
 							"autoResize": false
@@ -2734,12 +2728,17 @@
 					"containerChangeable": false,
 					"containerExtending": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"left": 832,
 					"top": 244,
 =======
 					"left": 196,
 					"top": 412,
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+=======
+					"left": 680,
+					"top": 488,
+>>>>>>> parent of d08ab67... PAckage + associacions
 					"width": 173,
 					"height": 45,
 					"autoResize": false,
@@ -2752,8 +2751,6 @@
 						"$ref": "AAAAAAFJxFZIASqR/DI="
 					},
 					"wordWrap": false,
-					"suppressAttributes": false,
-					"suppressOperations": false,
 					"showMultiplicity": true,
 					"showOperationSignature": true,
 					"attributeCompartment": {
@@ -3008,8 +3005,6 @@
 						"$ref": "AAAAAAFJxFaTjCq3nHw="
 					},
 					"wordWrap": false,
-					"suppressAttributes": false,
-					"suppressOperations": false,
 					"showMultiplicity": true,
 					"showOperationSignature": true,
 					"attributeCompartment": {
@@ -3021,6 +3016,7 @@
 					"templateParameterCompartment": {
 						"$ref": "AAAAAAFJxFaTjCq+79I="
 					}
+<<<<<<< HEAD
 				},
 				{
 					"_type": "UMLClassView",
@@ -12092,6 +12088,10 @@
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
+=======
+				}
+			]
+>>>>>>> parent of d08ab67... PAckage + associacions
 		}
 	]
 }
