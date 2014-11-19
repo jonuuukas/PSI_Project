@@ -350,6 +350,444 @@
 					"isFinalSpecification": false,
 					"isLeaf": false,
 					"isActive": false
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFJyYcpRTQKLDA=",
+					"_parent": {
+						"$ref": "AAAAAAFJxFOSCijIGFU="
+					},
+					"name": "Vartotojas",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAFJyYkjSTaZWSc=",
+							"_parent": {
+								"$ref": "AAAAAAFJyYcpRTQKLDA="
+							},
+							"name": "Gali būti",
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFJyYkjSTaa5+I=",
+								"_parent": {
+									"$ref": "AAAAAAFJyYkjSTaZWSc="
+								},
+								"reference": {
+									"$ref": "AAAAAAFJyYcpRTQKLDA="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFJyYkjSTabZpM=",
+								"_parent": {
+									"$ref": "AAAAAAFJyYkjSTaZWSc="
+								},
+								"reference": {
+									"$ref": "AAAAAAFJyYgi9zSI1/c="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"visibility": "public",
+							"isDerived": false
+						}
+					],
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecification": false,
+					"isLeaf": false,
+					"isActive": false
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFJyYd38TQ4tKQ=",
+					"_parent": {
+						"$ref": "AAAAAAFJxFOSCijIGFU="
+					},
+					"name": "Žaidėjas",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAFJyYiLaTS1xLc=",
+							"_parent": {
+								"$ref": "AAAAAAFJyYd38TQ4tKQ="
+							},
+							"name": "Gali būti",
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFJyYiLaTS2TjU=",
+								"_parent": {
+									"$ref": "AAAAAAFJyYiLaTS1xLc="
+								},
+								"reference": {
+									"$ref": "AAAAAAFJyYd38TQ4tKQ="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFJyYiLaTS3vS4=",
+								"_parent": {
+									"$ref": "AAAAAAFJyYiLaTS1xLc="
+								},
+								"reference": {
+									"$ref": "AAAAAAFJyYcpRTQKLDA="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"visibility": "public",
+							"isDerived": false
+						},
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAFJyY74iExcFVg=",
+							"_parent": {
+								"$ref": "AAAAAAFJyYd38TQ4tKQ="
+							},
+							"name": "Rašo",
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFJyY74iExdOk0=",
+								"_parent": {
+									"$ref": "AAAAAAFJyY74iExcFVg="
+								},
+								"reference": {
+									"$ref": "AAAAAAFJyYd38TQ4tKQ="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFJyY74iExeeCM=",
+								"_parent": {
+									"$ref": "AAAAAAFJyY74iExcFVg="
+								},
+								"reference": {
+									"$ref": "AAAAAAFJxFWRASoc3kk="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"visibility": "public",
+							"isDerived": false
+						}
+					],
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecification": false,
+					"isLeaf": false,
+					"isActive": false
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFJyYfJzzRgBpw=",
+					"_parent": {
+						"$ref": "AAAAAAFJxFOSCijIGFU="
+					},
+					"name": "Žaidimų kūrėjas",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAFJyYkAsTY0Yr8=",
+							"_parent": {
+								"$ref": "AAAAAAFJyYfJzzRgBpw="
+							},
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFJyYkAsTY116M=",
+								"_parent": {
+									"$ref": "AAAAAAFJyYkAsTY0Yr8="
+								},
+								"reference": {
+									"$ref": "AAAAAAFJyYfJzzRgBpw="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFJyYkAsTY2M3Q=",
+								"_parent": {
+									"$ref": "AAAAAAFJyYkAsTY0Yr8="
+								},
+								"name": "Gali būti",
+								"reference": {
+									"$ref": "AAAAAAFJyYcpRTQKLDA="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"visibility": "public",
+							"isDerived": false
+						}
+					],
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecification": false,
+					"isLeaf": false,
+					"isActive": false
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFJyYrxxzdpDos=",
+					"_parent": {
+						"$ref": "AAAAAAFJxFOSCijIGFU="
+					},
+					"name": "Administratorius",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAFJyYx05zuHwbQ=",
+							"_parent": {
+								"$ref": "AAAAAAFJyYrxxzdpDos="
+							},
+							"name": "Gali būti",
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFJyYx05zuIORY=",
+								"_parent": {
+									"$ref": "AAAAAAFJyYx05zuHwbQ="
+								},
+								"reference": {
+									"$ref": "AAAAAAFJyYrxxzdpDos="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFJyYx05zuJ34I=",
+								"_parent": {
+									"$ref": "AAAAAAFJyYx05zuHwbQ="
+								},
+								"reference": {
+									"$ref": "AAAAAAFJyYgi9zSI1/c="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"visibility": "public",
+							"isDerived": false
+						}
+					],
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecification": false,
+					"isLeaf": false,
+					"isActive": false
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFJyYgi9zSI1/c=",
+					"_parent": {
+						"$ref": "AAAAAAFJxFOSCijIGFU="
+					},
+					"name": "Darbuotojas",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecification": false,
+					"isLeaf": false,
+					"isActive": false
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFJyYvPAThOnRA=",
+					"_parent": {
+						"$ref": "AAAAAAFJxFOSCijIGFU="
+					},
+					"name": "Kūrėjas",
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecification": false,
+					"isLeaf": false,
+					"isActive": false
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFJyYv7Pzi8NPY=",
+					"_parent": {
+						"$ref": "AAAAAAFJxFOSCijIGFU="
+					},
+					"name": "Supportas",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAFJyYyx3zzJ9pE=",
+							"_parent": {
+								"$ref": "AAAAAAFJyYv7Pzi8NPY="
+							},
+							"name": "Gali būti",
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFJyYyx3zzKCao=",
+								"_parent": {
+									"$ref": "AAAAAAFJyYyx3zzJ9pE="
+								},
+								"reference": {
+									"$ref": "AAAAAAFJyYv7Pzi8NPY="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFJyYyx3zzLYbk=",
+								"_parent": {
+									"$ref": "AAAAAAFJyYyx3zzJ9pE="
+								},
+								"reference": {
+									"$ref": "AAAAAAFJyYgi9zSI1/c="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"visibility": "public",
+							"isDerived": false
+						}
+					],
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecification": false,
+					"isLeaf": false,
+					"isActive": false
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFJyYwv9joGKtA=",
+					"_parent": {
+						"$ref": "AAAAAAFJxFOSCijIGFU="
+					},
+					"name": "Moderatorius",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAFJyYzOcD2OEhQ=",
+							"_parent": {
+								"$ref": "AAAAAAFJyYwv9joGKtA="
+							},
+							"name": "Gali būti",
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFJyYzOcD2PpBE=",
+								"_parent": {
+									"$ref": "AAAAAAFJyYzOcD2OEhQ="
+								},
+								"reference": {
+									"$ref": "AAAAAAFJyYwv9joGKtA="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFJyYzOcD2QxeI=",
+								"_parent": {
+									"$ref": "AAAAAAFJyYzOcD2OEhQ="
+								},
+								"reference": {
+									"$ref": "AAAAAAFJyYgi9zSI1/c="
+								},
+								"visibility": "public",
+								"navigable": true,
+								"aggregation": "none",
+								"isReadOnly": false,
+								"isOrdered": false,
+								"isUnique": false,
+								"isDerived": false,
+								"isID": false
+							},
+							"visibility": "public",
+							"isDerived": false
+						}
+					],
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecification": false,
+					"isLeaf": false,
+					"isActive": false
 				}
 			],
 			"visible": true,
@@ -3123,7 +3561,7 @@
 									"left": 612,
 <<<<<<< HEAD
 									"top": 240,
-									"width": 78,
+									"width": 118,
 									"height": 13,
 									"autoResize": false,
 									"underline": false,
@@ -3131,6 +3569,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of e5c59f8... Test2
 									"text": "(from ClassDiagram)",
 =======
 									"top": 252,
@@ -3140,6 +3581,7 @@
 									"underline": false,
 									"text": "(from Project)",
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+<<<<<<< HEAD
 =======
 									"text": "(from Project)",
 >>>>>>> parent of b810dbe... Class diagram quick update
@@ -3152,6 +3594,8 @@
 =======
 									"text": "(from Project)",
 >>>>>>> parent of b810dbe... Class diagram quick update
+=======
+>>>>>>> parent of e5c59f8... Test2
 									"horizontalAlignment": 2,
 									"verticalAlignment": 5
 								},
@@ -3452,7 +3896,7 @@
 <<<<<<< HEAD
 									"left": -312,
 									"top": 108,
-									"width": 78,
+									"width": 118,
 									"height": 13,
 									"autoResize": false,
 									"underline": false,
@@ -3460,6 +3904,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of e5c59f8... Test2
 									"text": "(from ClassDiagram)",
 =======
 									"left": -288,
@@ -3470,6 +3917,7 @@
 									"underline": false,
 									"text": "(from Project)",
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+<<<<<<< HEAD
 =======
 									"text": "(from Project)",
 >>>>>>> parent of b810dbe... Class diagram quick update
@@ -3482,6 +3930,8 @@
 =======
 									"text": "(from Project)",
 >>>>>>> parent of b810dbe... Class diagram quick update
+=======
+>>>>>>> parent of e5c59f8... Test2
 									"horizontalAlignment": 2,
 									"verticalAlignment": 5
 								},
@@ -3788,7 +4238,7 @@
 <<<<<<< HEAD
 									"left": -144,
 									"top": 24,
-									"width": 78,
+									"width": 118,
 									"height": 13,
 									"autoResize": false,
 									"underline": false,
@@ -3796,6 +4246,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of e5c59f8... Test2
 									"text": "(from ClassDiagram)",
 =======
 									"left": -120,
@@ -3806,6 +4259,7 @@
 									"underline": false,
 									"text": "(from Project)",
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+<<<<<<< HEAD
 =======
 									"text": "(from Project)",
 >>>>>>> parent of b810dbe... Class diagram quick update
@@ -3818,6 +4272,8 @@
 =======
 									"text": "(from Project)",
 >>>>>>> parent of b810dbe... Class diagram quick update
+=======
+>>>>>>> parent of e5c59f8... Test2
 									"horizontalAlignment": 2,
 									"verticalAlignment": 5
 								},
@@ -4127,6 +4583,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of e5c59f8... Test2
 									"width": 118,
 									"height": 13,
 									"autoResize": false,
@@ -4139,6 +4598,7 @@
 									"underline": false,
 									"text": "(from Project)",
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+<<<<<<< HEAD
 =======
 									"width": 78,
 									"height": 13,
@@ -4167,6 +4627,8 @@
 									"underline": false,
 									"text": "(from Project)",
 >>>>>>> parent of b810dbe... Class diagram quick update
+=======
+>>>>>>> parent of e5c59f8... Test2
 									"horizontalAlignment": 2,
 									"verticalAlignment": 5
 								},
@@ -5807,7 +6269,7 @@
 <<<<<<< HEAD
 									"left": -264,
 									"top": -36,
-									"width": 78,
+									"width": 118,
 									"height": 13,
 									"autoResize": false,
 									"underline": false,
@@ -5815,6 +6277,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of e5c59f8... Test2
 									"text": "(from ClassDiagram)",
 =======
 									"left": -96,
@@ -5825,6 +6290,7 @@
 									"underline": false,
 									"text": "(from Project)",
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+<<<<<<< HEAD
 =======
 									"text": "(from Project)",
 >>>>>>> parent of b810dbe... Class diagram quick update
@@ -5837,6 +6303,8 @@
 =======
 									"text": "(from Project)",
 >>>>>>> parent of b810dbe... Class diagram quick update
+=======
+>>>>>>> parent of e5c59f8... Test2
 									"horizontalAlignment": 2,
 									"verticalAlignment": 5
 								},
@@ -6146,7 +6614,7 @@
 <<<<<<< HEAD
 									"left": -372,
 									"top": -48,
-									"width": 78,
+									"width": 118,
 									"height": 13,
 									"autoResize": false,
 									"underline": false,
@@ -6154,6 +6622,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of e5c59f8... Test2
 									"text": "(from ClassDiagram)",
 =======
 									"left": -192,
@@ -6164,6 +6635,7 @@
 									"underline": false,
 									"text": "(from Project)",
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+<<<<<<< HEAD
 =======
 									"text": "(from Project)",
 >>>>>>> parent of b810dbe... Class diagram quick update
@@ -6176,6 +6648,8 @@
 =======
 									"text": "(from Project)",
 >>>>>>> parent of b810dbe... Class diagram quick update
+=======
+>>>>>>> parent of e5c59f8... Test2
 									"horizontalAlignment": 2,
 									"verticalAlignment": 5
 								},
@@ -6489,7 +6963,7 @@
 <<<<<<< HEAD
 									"left": -372,
 									"top": -72,
-									"width": 78,
+									"width": 118,
 									"height": 13,
 									"autoResize": false,
 									"underline": false,
@@ -6497,6 +6971,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of e5c59f8... Test2
 									"text": "(from ClassDiagram)",
 =======
 									"left": -180,
@@ -6507,6 +6984,7 @@
 									"underline": false,
 									"text": "(from Project)",
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+<<<<<<< HEAD
 =======
 									"text": "(from Project)",
 >>>>>>> parent of b810dbe... Class diagram quick update
@@ -6519,6 +6997,8 @@
 =======
 									"text": "(from Project)",
 >>>>>>> parent of b810dbe... Class diagram quick update
+=======
+>>>>>>> parent of e5c59f8... Test2
 									"horizontalAlignment": 2,
 									"verticalAlignment": 5
 								},
@@ -9885,7 +10365,6 @@
 <<<<<<< HEAD
 				}
 			]
-<<<<<<< HEAD
 =======
 				},
 				{
@@ -11504,6 +11983,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
@@ -11512,6 +11992,8 @@
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
+=======
+>>>>>>> parent of e5c59f8... Test2
 		},
 		{
 			"_type": "UMLClass",
@@ -11572,6 +12054,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"stereotype": "actor",
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
@@ -11581,6 +12064,9 @@
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
+=======
+			"stereotype": "actor",
+>>>>>>> parent of e5c59f8... Test2
 			"visibility": "public",
 			"isAbstract": false,
 			"isFinalSpecification": false,
@@ -11692,6 +12178,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"stereotype": "actor",
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
@@ -11701,6 +12188,9 @@
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
+=======
+			"stereotype": "actor",
+>>>>>>> parent of e5c59f8... Test2
 			"visibility": "public",
 			"isAbstract": false,
 			"isFinalSpecification": false,
@@ -11766,6 +12256,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"stereotype": "actor",
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
@@ -11775,6 +12266,9 @@
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
+=======
+			"stereotype": "actor",
+>>>>>>> parent of e5c59f8... Test2
 			"visibility": "public",
 			"isAbstract": false,
 			"isFinalSpecification": false,
@@ -11792,6 +12286,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"stereotype": "actor",
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
@@ -11801,6 +12296,9 @@
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
+=======
+			"stereotype": "actor",
+>>>>>>> parent of e5c59f8... Test2
 			"visibility": "public",
 			"isAbstract": false,
 			"isFinalSpecification": false,
@@ -11866,6 +12364,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"stereotype": "actor",
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
@@ -11875,6 +12374,9 @@
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
+=======
+			"stereotype": "actor",
+>>>>>>> parent of e5c59f8... Test2
 			"visibility": "public",
 			"isAbstract": false,
 			"isFinalSpecification": false,
@@ -11953,6 +12455,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"stereotype": "actor",
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
@@ -11962,6 +12465,9 @@
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
+=======
+			"stereotype": "actor",
+>>>>>>> parent of e5c59f8... Test2
 			"visibility": "public",
 			"isAbstract": false,
 			"isFinalSpecification": false,
@@ -11974,6 +12480,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11991,6 +12498,9 @@
 =======
 			"name": "Moderatorius",
 >>>>>>> parent of b810dbe... Class diagram quick update
+=======
+			"name": " Moderatorius",
+>>>>>>> parent of e5c59f8... Test2
 			"ownedElements": [
 				{
 					"_type": "UMLAssociation",
@@ -12043,6 +12553,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"stereotype": "actor",
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
@@ -12052,6 +12563,9 @@
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
+=======
+			"stereotype": "actor",
+>>>>>>> parent of e5c59f8... Test2
 			"visibility": "public",
 			"isAbstract": false,
 			"isFinalSpecification": false,
@@ -12061,6 +12575,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of e5c59f8... Test2
 		},
 		{
 			"_type": "UMLModel",
@@ -12080,6 +12597,7 @@
 			"name": "Platforma",
 			"visibility": "public"
 >>>>>>> d08ab67b4a47136ce648c8586a8d30601b39239f
+<<<<<<< HEAD
 =======
 >>>>>>> parent of b810dbe... Class diagram quick update
 =======
@@ -12092,6 +12610,8 @@
 				}
 			]
 >>>>>>> parent of d08ab67... PAckage + associacions
+=======
+>>>>>>> parent of e5c59f8... Test2
 		}
 	]
 }
