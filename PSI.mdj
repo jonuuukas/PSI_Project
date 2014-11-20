@@ -36,443 +36,445 @@
 								"$ref": "AAAAAAFJybozhrBobe4="
 							},
 							"name": "Platforma",
+							"ownedElements": [
+								{
+									"_type": "UMLClass",
+									"_id": "AAAAAAFJxFS0zCmojcQ=",
+									"_parent": {
+										"$ref": "AAAAAAFJybsmZLiwluU="
+									},
+									"name": "Žaidimai",
+									"ownedElements": [
+										{
+											"_type": "UMLAssociation",
+											"_id": "AAAAAAFJyY7acErWzWU=",
+											"_parent": {
+												"$ref": "AAAAAAFJxFS0zCmojcQ="
+											},
+											"name": "Turi",
+											"end1": {
+												"_type": "UMLAssociationEnd",
+												"_id": "AAAAAAFJyY7acErXXt4=",
+												"_parent": {
+													"$ref": "AAAAAAFJyY7acErWzWU="
+												},
+												"reference": {
+													"$ref": "AAAAAAFJxFS0zCmojcQ="
+												},
+												"visibility": "public",
+												"navigable": true,
+												"aggregation": "none",
+												"isReadOnly": false,
+												"isOrdered": false,
+												"isUnique": false,
+												"isDerived": false,
+												"isID": false
+											},
+											"end2": {
+												"_type": "UMLAssociationEnd",
+												"_id": "AAAAAAFJyY7acErYAHg=",
+												"_parent": {
+													"$ref": "AAAAAAFJyY7acErWzWU="
+												},
+												"reference": {
+													"$ref": "AAAAAAFJxFVXUyn2iLI="
+												},
+												"visibility": "public",
+												"navigable": true,
+												"aggregation": "none",
+												"isReadOnly": false,
+												"isOrdered": false,
+												"isUnique": false,
+												"isDerived": false,
+												"isID": false
+											},
+											"visibility": "public",
+											"isDerived": false
+										},
+										{
+											"_type": "UMLAssociation",
+											"_id": "AAAAAAFJyY828k7KmII=",
+											"_parent": {
+												"$ref": "AAAAAAFJxFS0zCmojcQ="
+											},
+											"name": "Turi",
+											"end1": {
+												"_type": "UMLAssociationEnd",
+												"_id": "AAAAAAFJyY828k7LN9Q=",
+												"_parent": {
+													"$ref": "AAAAAAFJyY828k7KmII="
+												},
+												"reference": {
+													"$ref": "AAAAAAFJxFS0zCmojcQ="
+												},
+												"visibility": "public",
+												"navigable": true,
+												"aggregation": "none",
+												"isReadOnly": false,
+												"isOrdered": false,
+												"isUnique": false,
+												"isDerived": false,
+												"isID": false
+											},
+											"end2": {
+												"_type": "UMLAssociationEnd",
+												"_id": "AAAAAAFJyY828k7Msso=",
+												"_parent": {
+													"$ref": "AAAAAAFJyY828k7KmII="
+												},
+												"reference": {
+													"$ref": "AAAAAAFJxFUNuSnQPaE="
+												},
+												"visibility": "public",
+												"navigable": true,
+												"aggregation": "none",
+												"isReadOnly": false,
+												"isOrdered": false,
+												"isUnique": false,
+												"isDerived": false,
+												"isID": false
+											},
+											"visibility": "public",
+											"isDerived": false
+										}
+									],
+									"visibility": "public",
+									"isAbstract": false,
+									"isFinalSpecification": false,
+									"isLeaf": false,
+									"isActive": false
+								},
+								{
+									"_type": "UMLClass",
+									"_id": "AAAAAAFJxFUNuSnQPaE=",
+									"_parent": {
+										"$ref": "AAAAAAFJybsmZLiwluU="
+									},
+									"name": "Pasiekimai",
+									"visibility": "public",
+									"isAbstract": false,
+									"isFinalSpecification": false,
+									"isLeaf": false,
+									"isActive": false
+								},
+								{
+									"_type": "UMLClass",
+									"_id": "AAAAAAFJxFVXUyn2iLI=",
+									"_parent": {
+										"$ref": "AAAAAAFJybsmZLiwluU="
+									},
+									"name": "Parduotuvė",
+									"ownedElements": [
+										{
+											"_type": "UMLAssociation",
+											"_id": "AAAAAAFJyY6HYEhmtd0=",
+											"_parent": {
+												"$ref": "AAAAAAFJxFVXUyn2iLI="
+											},
+											"name": "Apsiperka",
+											"end1": {
+												"_type": "UMLAssociationEnd",
+												"_id": "AAAAAAFJyY6HYEhnA+M=",
+												"_parent": {
+													"$ref": "AAAAAAFJyY6HYEhmtd0="
+												},
+												"reference": {
+													"$ref": "AAAAAAFJxFVXUyn2iLI="
+												},
+												"visibility": "public",
+												"navigable": true,
+												"aggregation": "none",
+												"isReadOnly": false,
+												"isOrdered": false,
+												"isUnique": false,
+												"isDerived": false,
+												"isID": false
+											},
+											"end2": {
+												"_type": "UMLAssociationEnd",
+												"_id": "AAAAAAFJyY6HYEhopuQ=",
+												"_parent": {
+													"$ref": "AAAAAAFJyY6HYEhmtd0="
+												},
+												"reference": {
+													"$ref": "AAAAAAFJyYd38TQ4tKQ="
+												},
+												"visibility": "public",
+												"navigable": true,
+												"aggregation": "none",
+												"isReadOnly": false,
+												"isOrdered": false,
+												"isUnique": false,
+												"isDerived": false,
+												"isID": false
+											},
+											"visibility": "public",
+											"isDerived": false
+										}
+									],
+									"visibility": "public",
+									"isAbstract": false,
+									"isFinalSpecification": false,
+									"isLeaf": false,
+									"isActive": false
+								},
+								{
+									"_type": "UMLClass",
+									"_id": "AAAAAAFJxFWRASoc3kk=",
+									"_parent": {
+										"$ref": "AAAAAAFJybsmZLiwluU="
+									},
+									"name": "Žinutės",
+									"visibility": "public",
+									"isAbstract": false,
+									"isFinalSpecification": false,
+									"isLeaf": false,
+									"isActive": false
+								},
+								{
+									"_type": "UMLClass",
+									"_id": "AAAAAAFJxFXoUipCsPo=",
+									"_parent": {
+										"$ref": "AAAAAAFJybsmZLiwluU="
+									},
+									"name": "Registracija",
+									"ownedElements": [
+										{
+											"_type": "UMLAssociation",
+											"_id": "AAAAAAFJybwqY8Ibflk=",
+											"_parent": {
+												"$ref": "AAAAAAFJxFXoUipCsPo="
+											},
+											"name": "Pateikia info",
+											"end1": {
+												"_type": "UMLAssociationEnd",
+												"_id": "AAAAAAFJybwqZcIc5Cs=",
+												"_parent": {
+													"$ref": "AAAAAAFJybwqY8Ibflk="
+												},
+												"reference": {
+													"$ref": "AAAAAAFJxFXoUipCsPo="
+												},
+												"visibility": "public",
+												"navigable": true,
+												"aggregation": "none",
+												"isReadOnly": false,
+												"isOrdered": false,
+												"isUnique": false,
+												"isDerived": false,
+												"isID": false
+											},
+											"end2": {
+												"_type": "UMLAssociationEnd",
+												"_id": "AAAAAAFJybwqZcIdoNY=",
+												"_parent": {
+													"$ref": "AAAAAAFJybwqY8Ibflk="
+												},
+												"reference": {
+													"$ref": "AAAAAAFJyYd38TQ4tKQ="
+												},
+												"visibility": "public",
+												"navigable": true,
+												"aggregation": "none",
+												"isReadOnly": false,
+												"isOrdered": false,
+												"isUnique": false,
+												"isDerived": false,
+												"isID": false
+											},
+											"visibility": "public",
+											"isDerived": false
+										}
+									],
+									"visibility": "public",
+									"isAbstract": false,
+									"isFinalSpecification": false,
+									"isLeaf": false,
+									"isActive": false
+								},
+								{
+									"_type": "UMLClass",
+									"_id": "AAAAAAFJxFYP3CpoI9M=",
+									"_parent": {
+										"$ref": "AAAAAAFJybsmZLiwluU="
+									},
+									"name": "Žaidimų biblioteka",
+									"ownedElements": [
+										{
+											"_type": "UMLAssociation",
+											"_id": "AAAAAAFJybycKMQf5Ao=",
+											"_parent": {
+												"$ref": "AAAAAAFJxFYP3CpoI9M="
+											},
+											"name": "Turi",
+											"end1": {
+												"_type": "UMLAssociationEnd",
+												"_id": "AAAAAAFJybycKMQgNFk=",
+												"_parent": {
+													"$ref": "AAAAAAFJybycKMQf5Ao="
+												},
+												"reference": {
+													"$ref": "AAAAAAFJxFYP3CpoI9M="
+												},
+												"visibility": "public",
+												"navigable": true,
+												"aggregation": "none",
+												"isReadOnly": false,
+												"isOrdered": false,
+												"isUnique": false,
+												"isDerived": false,
+												"isID": false
+											},
+											"end2": {
+												"_type": "UMLAssociationEnd",
+												"_id": "AAAAAAFJybycKcQhNY8=",
+												"_parent": {
+													"$ref": "AAAAAAFJybycKMQf5Ao="
+												},
+												"reference": {
+													"$ref": "AAAAAAFJxFS0zCmojcQ="
+												},
+												"visibility": "public",
+												"navigable": true,
+												"aggregation": "none",
+												"isReadOnly": false,
+												"isOrdered": false,
+												"isUnique": false,
+												"isDerived": false,
+												"isID": false
+											},
+											"visibility": "public",
+											"isDerived": false
+										},
+										{
+											"_type": "UMLAssociation",
+											"_id": "AAAAAAFJybzgq8cmNtE=",
+											"_parent": {
+												"$ref": "AAAAAAFJxFYP3CpoI9M="
+											},
+											"name": "Turi",
+											"end1": {
+												"_type": "UMLAssociationEnd",
+												"_id": "AAAAAAFJybzgq8cnPOM=",
+												"_parent": {
+													"$ref": "AAAAAAFJybzgq8cmNtE="
+												},
+												"reference": {
+													"$ref": "AAAAAAFJxFYP3CpoI9M="
+												},
+												"visibility": "public",
+												"navigable": true,
+												"aggregation": "none",
+												"isReadOnly": false,
+												"isOrdered": false,
+												"isUnique": false,
+												"isDerived": false,
+												"isID": false
+											},
+											"end2": {
+												"_type": "UMLAssociationEnd",
+												"_id": "AAAAAAFJybzgq8coh4w=",
+												"_parent": {
+													"$ref": "AAAAAAFJybzgq8cmNtE="
+												},
+												"reference": {
+													"$ref": "AAAAAAFJyYd38TQ4tKQ="
+												},
+												"visibility": "public",
+												"navigable": true,
+												"aggregation": "none",
+												"isReadOnly": false,
+												"isOrdered": false,
+												"isUnique": false,
+												"isDerived": false,
+												"isID": false
+											},
+											"visibility": "public",
+											"isDerived": false
+										}
+									],
+									"visibility": "public",
+									"isAbstract": false,
+									"isFinalSpecification": false,
+									"isLeaf": false,
+									"isActive": false
+								},
+								{
+									"_type": "UMLClass",
+									"_id": "AAAAAAFJxFZIASqO9CU=",
+									"_parent": {
+										"$ref": "AAAAAAFJybsmZLiwluU="
+									},
+									"name": "Reikalavimų suderintuvas",
+									"ownedElements": [
+										{
+											"_type": "UMLAssociation",
+											"_id": "AAAAAAFJyb1WYstVY2Y=",
+											"_parent": {
+												"$ref": "AAAAAAFJxFZIASqO9CU="
+											},
+											"name": "Naudoja",
+											"end1": {
+												"_type": "UMLAssociationEnd",
+												"_id": "AAAAAAFJyb1WYstWFuw=",
+												"_parent": {
+													"$ref": "AAAAAAFJyb1WYstVY2Y="
+												},
+												"reference": {
+													"$ref": "AAAAAAFJxFZIASqO9CU="
+												},
+												"visibility": "public",
+												"navigable": true,
+												"aggregation": "none",
+												"isReadOnly": false,
+												"isOrdered": false,
+												"isUnique": false,
+												"isDerived": false,
+												"isID": false
+											},
+											"end2": {
+												"_type": "UMLAssociationEnd",
+												"_id": "AAAAAAFJyb1WY8tXLUo=",
+												"_parent": {
+													"$ref": "AAAAAAFJyb1WYstVY2Y="
+												},
+												"reference": {
+													"$ref": "AAAAAAFJyYd38TQ4tKQ="
+												},
+												"visibility": "public",
+												"navigable": true,
+												"aggregation": "none",
+												"isReadOnly": false,
+												"isOrdered": false,
+												"isUnique": false,
+												"isDerived": false,
+												"isID": false
+											},
+											"visibility": "public",
+											"isDerived": false
+										}
+									],
+									"visibility": "public",
+									"isAbstract": false,
+									"isFinalSpecification": false,
+									"isLeaf": false,
+									"isActive": false
+								},
+								{
+									"_type": "UMLClass",
+									"_id": "AAAAAAFJxFaTjCq0mHQ=",
+									"_parent": {
+										"$ref": "AAAAAAFJybsmZLiwluU="
+									},
+									"name": "Paieška",
+									"visibility": "public",
+									"isAbstract": false,
+									"isFinalSpecification": false,
+									"isLeaf": false,
+									"isActive": false
+								}
+							],
 							"visibility": "public"
-						},
-						{
-							"_type": "UMLClass",
-							"_id": "AAAAAAFJxFS0zCmojcQ=",
-							"_parent": {
-								"$ref": "AAAAAAFJybozhrBobe4="
-							},
-							"name": "Žaidimai",
-							"ownedElements": [
-								{
-									"_type": "UMLAssociation",
-									"_id": "AAAAAAFJyY7acErWzWU=",
-									"_parent": {
-										"$ref": "AAAAAAFJxFS0zCmojcQ="
-									},
-									"name": "Turi",
-									"end1": {
-										"_type": "UMLAssociationEnd",
-										"_id": "AAAAAAFJyY7acErXXt4=",
-										"_parent": {
-											"$ref": "AAAAAAFJyY7acErWzWU="
-										},
-										"reference": {
-											"$ref": "AAAAAAFJxFS0zCmojcQ="
-										},
-										"visibility": "public",
-										"navigable": true,
-										"aggregation": "none",
-										"isReadOnly": false,
-										"isOrdered": false,
-										"isUnique": false,
-										"isDerived": false,
-										"isID": false
-									},
-									"end2": {
-										"_type": "UMLAssociationEnd",
-										"_id": "AAAAAAFJyY7acErYAHg=",
-										"_parent": {
-											"$ref": "AAAAAAFJyY7acErWzWU="
-										},
-										"reference": {
-											"$ref": "AAAAAAFJxFVXUyn2iLI="
-										},
-										"visibility": "public",
-										"navigable": true,
-										"aggregation": "none",
-										"isReadOnly": false,
-										"isOrdered": false,
-										"isUnique": false,
-										"isDerived": false,
-										"isID": false
-									},
-									"visibility": "public",
-									"isDerived": false
-								},
-								{
-									"_type": "UMLAssociation",
-									"_id": "AAAAAAFJyY828k7KmII=",
-									"_parent": {
-										"$ref": "AAAAAAFJxFS0zCmojcQ="
-									},
-									"name": "Turi",
-									"end1": {
-										"_type": "UMLAssociationEnd",
-										"_id": "AAAAAAFJyY828k7LN9Q=",
-										"_parent": {
-											"$ref": "AAAAAAFJyY828k7KmII="
-										},
-										"reference": {
-											"$ref": "AAAAAAFJxFS0zCmojcQ="
-										},
-										"visibility": "public",
-										"navigable": true,
-										"aggregation": "none",
-										"isReadOnly": false,
-										"isOrdered": false,
-										"isUnique": false,
-										"isDerived": false,
-										"isID": false
-									},
-									"end2": {
-										"_type": "UMLAssociationEnd",
-										"_id": "AAAAAAFJyY828k7Msso=",
-										"_parent": {
-											"$ref": "AAAAAAFJyY828k7KmII="
-										},
-										"reference": {
-											"$ref": "AAAAAAFJxFUNuSnQPaE="
-										},
-										"visibility": "public",
-										"navigable": true,
-										"aggregation": "none",
-										"isReadOnly": false,
-										"isOrdered": false,
-										"isUnique": false,
-										"isDerived": false,
-										"isID": false
-									},
-									"visibility": "public",
-									"isDerived": false
-								}
-							],
-							"visibility": "public",
-							"isAbstract": false,
-							"isFinalSpecification": false,
-							"isLeaf": false,
-							"isActive": false
-						},
-						{
-							"_type": "UMLClass",
-							"_id": "AAAAAAFJxFUNuSnQPaE=",
-							"_parent": {
-								"$ref": "AAAAAAFJybozhrBobe4="
-							},
-							"name": "Pasiekimai",
-							"visibility": "public",
-							"isAbstract": false,
-							"isFinalSpecification": false,
-							"isLeaf": false,
-							"isActive": false
-						},
-						{
-							"_type": "UMLClass",
-							"_id": "AAAAAAFJxFVXUyn2iLI=",
-							"_parent": {
-								"$ref": "AAAAAAFJybozhrBobe4="
-							},
-							"name": "Parduotuvė",
-							"ownedElements": [
-								{
-									"_type": "UMLAssociation",
-									"_id": "AAAAAAFJyY6HYEhmtd0=",
-									"_parent": {
-										"$ref": "AAAAAAFJxFVXUyn2iLI="
-									},
-									"name": "Apsiperka",
-									"end1": {
-										"_type": "UMLAssociationEnd",
-										"_id": "AAAAAAFJyY6HYEhnA+M=",
-										"_parent": {
-											"$ref": "AAAAAAFJyY6HYEhmtd0="
-										},
-										"reference": {
-											"$ref": "AAAAAAFJxFVXUyn2iLI="
-										},
-										"visibility": "public",
-										"navigable": true,
-										"aggregation": "none",
-										"isReadOnly": false,
-										"isOrdered": false,
-										"isUnique": false,
-										"isDerived": false,
-										"isID": false
-									},
-									"end2": {
-										"_type": "UMLAssociationEnd",
-										"_id": "AAAAAAFJyY6HYEhopuQ=",
-										"_parent": {
-											"$ref": "AAAAAAFJyY6HYEhmtd0="
-										},
-										"reference": {
-											"$ref": "AAAAAAFJyYd38TQ4tKQ="
-										},
-										"visibility": "public",
-										"navigable": true,
-										"aggregation": "none",
-										"isReadOnly": false,
-										"isOrdered": false,
-										"isUnique": false,
-										"isDerived": false,
-										"isID": false
-									},
-									"visibility": "public",
-									"isDerived": false
-								}
-							],
-							"visibility": "public",
-							"isAbstract": false,
-							"isFinalSpecification": false,
-							"isLeaf": false,
-							"isActive": false
-						},
-						{
-							"_type": "UMLClass",
-							"_id": "AAAAAAFJxFWRASoc3kk=",
-							"_parent": {
-								"$ref": "AAAAAAFJybozhrBobe4="
-							},
-							"name": "Žinutės",
-							"visibility": "public",
-							"isAbstract": false,
-							"isFinalSpecification": false,
-							"isLeaf": false,
-							"isActive": false
-						},
-						{
-							"_type": "UMLClass",
-							"_id": "AAAAAAFJxFXoUipCsPo=",
-							"_parent": {
-								"$ref": "AAAAAAFJybozhrBobe4="
-							},
-							"name": "Registracija",
-							"ownedElements": [
-								{
-									"_type": "UMLAssociation",
-									"_id": "AAAAAAFJybwqY8Ibflk=",
-									"_parent": {
-										"$ref": "AAAAAAFJxFXoUipCsPo="
-									},
-									"name": "Pateikia info",
-									"end1": {
-										"_type": "UMLAssociationEnd",
-										"_id": "AAAAAAFJybwqZcIc5Cs=",
-										"_parent": {
-											"$ref": "AAAAAAFJybwqY8Ibflk="
-										},
-										"reference": {
-											"$ref": "AAAAAAFJxFXoUipCsPo="
-										},
-										"visibility": "public",
-										"navigable": true,
-										"aggregation": "none",
-										"isReadOnly": false,
-										"isOrdered": false,
-										"isUnique": false,
-										"isDerived": false,
-										"isID": false
-									},
-									"end2": {
-										"_type": "UMLAssociationEnd",
-										"_id": "AAAAAAFJybwqZcIdoNY=",
-										"_parent": {
-											"$ref": "AAAAAAFJybwqY8Ibflk="
-										},
-										"reference": {
-											"$ref": "AAAAAAFJyYd38TQ4tKQ="
-										},
-										"visibility": "public",
-										"navigable": true,
-										"aggregation": "none",
-										"isReadOnly": false,
-										"isOrdered": false,
-										"isUnique": false,
-										"isDerived": false,
-										"isID": false
-									},
-									"visibility": "public",
-									"isDerived": false
-								}
-							],
-							"visibility": "public",
-							"isAbstract": false,
-							"isFinalSpecification": false,
-							"isLeaf": false,
-							"isActive": false
-						},
-						{
-							"_type": "UMLClass",
-							"_id": "AAAAAAFJxFYP3CpoI9M=",
-							"_parent": {
-								"$ref": "AAAAAAFJybozhrBobe4="
-							},
-							"name": "Žaidimų biblioteka",
-							"ownedElements": [
-								{
-									"_type": "UMLAssociation",
-									"_id": "AAAAAAFJybycKMQf5Ao=",
-									"_parent": {
-										"$ref": "AAAAAAFJxFYP3CpoI9M="
-									},
-									"name": "Turi",
-									"end1": {
-										"_type": "UMLAssociationEnd",
-										"_id": "AAAAAAFJybycKMQgNFk=",
-										"_parent": {
-											"$ref": "AAAAAAFJybycKMQf5Ao="
-										},
-										"reference": {
-											"$ref": "AAAAAAFJxFYP3CpoI9M="
-										},
-										"visibility": "public",
-										"navigable": true,
-										"aggregation": "none",
-										"isReadOnly": false,
-										"isOrdered": false,
-										"isUnique": false,
-										"isDerived": false,
-										"isID": false
-									},
-									"end2": {
-										"_type": "UMLAssociationEnd",
-										"_id": "AAAAAAFJybycKcQhNY8=",
-										"_parent": {
-											"$ref": "AAAAAAFJybycKMQf5Ao="
-										},
-										"reference": {
-											"$ref": "AAAAAAFJxFS0zCmojcQ="
-										},
-										"visibility": "public",
-										"navigable": true,
-										"aggregation": "none",
-										"isReadOnly": false,
-										"isOrdered": false,
-										"isUnique": false,
-										"isDerived": false,
-										"isID": false
-									},
-									"visibility": "public",
-									"isDerived": false
-								},
-								{
-									"_type": "UMLAssociation",
-									"_id": "AAAAAAFJybzgq8cmNtE=",
-									"_parent": {
-										"$ref": "AAAAAAFJxFYP3CpoI9M="
-									},
-									"name": "Turi",
-									"end1": {
-										"_type": "UMLAssociationEnd",
-										"_id": "AAAAAAFJybzgq8cnPOM=",
-										"_parent": {
-											"$ref": "AAAAAAFJybzgq8cmNtE="
-										},
-										"reference": {
-											"$ref": "AAAAAAFJxFYP3CpoI9M="
-										},
-										"visibility": "public",
-										"navigable": true,
-										"aggregation": "none",
-										"isReadOnly": false,
-										"isOrdered": false,
-										"isUnique": false,
-										"isDerived": false,
-										"isID": false
-									},
-									"end2": {
-										"_type": "UMLAssociationEnd",
-										"_id": "AAAAAAFJybzgq8coh4w=",
-										"_parent": {
-											"$ref": "AAAAAAFJybzgq8cmNtE="
-										},
-										"reference": {
-											"$ref": "AAAAAAFJyYd38TQ4tKQ="
-										},
-										"visibility": "public",
-										"navigable": true,
-										"aggregation": "none",
-										"isReadOnly": false,
-										"isOrdered": false,
-										"isUnique": false,
-										"isDerived": false,
-										"isID": false
-									},
-									"visibility": "public",
-									"isDerived": false
-								}
-							],
-							"visibility": "public",
-							"isAbstract": false,
-							"isFinalSpecification": false,
-							"isLeaf": false,
-							"isActive": false
-						},
-						{
-							"_type": "UMLClass",
-							"_id": "AAAAAAFJxFZIASqO9CU=",
-							"_parent": {
-								"$ref": "AAAAAAFJybozhrBobe4="
-							},
-							"name": "Reikalavimų suderintuvas",
-							"ownedElements": [
-								{
-									"_type": "UMLAssociation",
-									"_id": "AAAAAAFJyb1WYstVY2Y=",
-									"_parent": {
-										"$ref": "AAAAAAFJxFZIASqO9CU="
-									},
-									"name": "Naudoja",
-									"end1": {
-										"_type": "UMLAssociationEnd",
-										"_id": "AAAAAAFJyb1WYstWFuw=",
-										"_parent": {
-											"$ref": "AAAAAAFJyb1WYstVY2Y="
-										},
-										"reference": {
-											"$ref": "AAAAAAFJxFZIASqO9CU="
-										},
-										"visibility": "public",
-										"navigable": true,
-										"aggregation": "none",
-										"isReadOnly": false,
-										"isOrdered": false,
-										"isUnique": false,
-										"isDerived": false,
-										"isID": false
-									},
-									"end2": {
-										"_type": "UMLAssociationEnd",
-										"_id": "AAAAAAFJyb1WY8tXLUo=",
-										"_parent": {
-											"$ref": "AAAAAAFJyb1WYstVY2Y="
-										},
-										"reference": {
-											"$ref": "AAAAAAFJyYd38TQ4tKQ="
-										},
-										"visibility": "public",
-										"navigable": true,
-										"aggregation": "none",
-										"isReadOnly": false,
-										"isOrdered": false,
-										"isUnique": false,
-										"isDerived": false,
-										"isID": false
-									},
-									"visibility": "public",
-									"isDerived": false
-								}
-							],
-							"visibility": "public",
-							"isAbstract": false,
-							"isFinalSpecification": false,
-							"isLeaf": false,
-							"isActive": false
-						},
-						{
-							"_type": "UMLClass",
-							"_id": "AAAAAAFJxFaTjCq0mHQ=",
-							"_parent": {
-								"$ref": "AAAAAAFJybozhrBobe4="
-							},
-							"name": "Paieška",
-							"visibility": "public",
-							"isAbstract": false,
-							"isFinalSpecification": false,
-							"isLeaf": false,
-							"isActive": false
 						}
 					],
 					"visibility": "public"
@@ -959,177 +961,6 @@
 			"visible": true,
 			"defaultDiagram": false,
 			"ownedViews": [
-				{
-					"_type": "UMLPackageView",
-					"_id": "AAAAAAFJybsmZriyphA=",
-					"_parent": {
-						"$ref": "AAAAAAFJxFOSCijIGFU="
-					},
-					"model": {
-						"$ref": "AAAAAAFJybsmZLiwluU="
-					},
-					"subViews": [
-						{
-							"_type": "UMLNameCompartmentView",
-							"_id": "AAAAAAFJybsmZrizFl4=",
-							"_parent": {
-								"$ref": "AAAAAAFJybsmZriyphA="
-							},
-							"model": {
-								"$ref": "AAAAAAFJybsmZLiwluU="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAFJybsmZri0ipE=",
-									"_parent": {
-										"$ref": "AAAAAAFJybsmZrizFl4="
-									},
-									"visible": false,
-									"enabled": true,
-									"lineColor": "#000000",
-									"fillColor": "#ffffff",
-									"fontColor": "#000000",
-									"font": "Arial;13;0",
-									"parentStyle": true,
-									"containerChangeable": false,
-									"containerExtending": true,
-									"left": -900,
-									"top": 252,
-									"width": 0,
-									"height": 13,
-									"autoResize": false,
-									"underline": false,
-									"horizontalAlignment": 2,
-									"verticalAlignment": 5
-								},
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAFJybsmZ7i1wUQ=",
-									"_parent": {
-										"$ref": "AAAAAAFJybsmZrizFl4="
-									},
-									"visible": true,
-									"enabled": true,
-									"lineColor": "#000000",
-									"fillColor": "#ffffff",
-									"fontColor": "#000000",
-									"font": "Arial;13;1",
-									"parentStyle": true,
-									"containerChangeable": false,
-									"containerExtending": true,
-									"left": 13,
-									"top": 250,
-									"width": 511,
-									"height": 13,
-									"autoResize": false,
-									"underline": false,
-									"text": "Platforma",
-									"horizontalAlignment": 2,
-									"verticalAlignment": 5
-								},
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAFJybsmZ7i2AH4=",
-									"_parent": {
-										"$ref": "AAAAAAFJybsmZrizFl4="
-									},
-									"visible": false,
-									"enabled": true,
-									"lineColor": "#000000",
-									"fillColor": "#ffffff",
-									"fontColor": "#000000",
-									"font": "Arial;13;0",
-									"parentStyle": true,
-									"containerChangeable": false,
-									"containerExtending": true,
-									"left": -900,
-									"top": 252,
-									"width": 92,
-									"height": 13,
-									"autoResize": false,
-									"underline": false,
-									"text": "(from Platforma)",
-									"horizontalAlignment": 2,
-									"verticalAlignment": 5
-								},
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAFJybsmZ7i3twg=",
-									"_parent": {
-										"$ref": "AAAAAAFJybsmZrizFl4="
-									},
-									"visible": false,
-									"enabled": true,
-									"lineColor": "#000000",
-									"fillColor": "#ffffff",
-									"fontColor": "#000000",
-									"font": "Arial;13;0",
-									"parentStyle": true,
-									"containerChangeable": false,
-									"containerExtending": true,
-									"left": -900,
-									"top": 252,
-									"width": 0,
-									"height": 13,
-									"autoResize": false,
-									"underline": false,
-									"horizontalAlignment": 1,
-									"verticalAlignment": 5
-								}
-							],
-							"visible": true,
-							"enabled": true,
-							"lineColor": "#000000",
-							"fillColor": "#ffffff",
-							"fontColor": "#000000",
-							"font": "Arial;13;0",
-							"parentStyle": true,
-							"containerChangeable": false,
-							"containerExtending": true,
-							"left": 8,
-							"top": 243,
-							"width": 521,
-							"height": 25,
-							"autoResize": false,
-							"stereotypeLabel": {
-								"$ref": "AAAAAAFJybsmZri0ipE="
-							},
-							"nameLabel": {
-								"$ref": "AAAAAAFJybsmZ7i1wUQ="
-							},
-							"namespaceLabel": {
-								"$ref": "AAAAAAFJybsmZ7i2AH4="
-							},
-							"propertyLabel": {
-								"$ref": "AAAAAAFJybsmZ7i3twg="
-							}
-						}
-					],
-					"visible": true,
-					"enabled": true,
-					"lineColor": "#000000",
-					"fillColor": "#ffffff",
-					"fontColor": "#000000",
-					"font": "Arial;13;0",
-					"parentStyle": false,
-					"containerChangeable": false,
-					"containerExtending": true,
-					"left": 8,
-					"top": 228,
-					"width": 521,
-					"height": 401,
-					"autoResize": false,
-					"stereotypeDisplay": "label",
-					"showVisibility": true,
-					"showNamespace": false,
-					"showProperty": true,
-					"showType": true,
-					"nameCompartment": {
-						"$ref": "AAAAAAFJybsmZrizFl4="
-					},
-					"wordWrap": false
-				},
 				{
 					"_type": "UMLClassView",
 					"_id": "AAAAAAFJxFS0zCmqhzY=",
@@ -5450,8 +5281,8 @@
 									"parentStyle": true,
 									"containerChangeable": false,
 									"containerExtending": true,
-									"left": 593,
-									"top": 521,
+									"left": 561,
+									"top": 513,
 									"width": 139,
 									"height": 13,
 									"autoResize": false,
@@ -5475,8 +5306,8 @@
 									"parentStyle": true,
 									"containerChangeable": false,
 									"containerExtending": true,
-									"left": 593,
-									"top": 536,
+									"left": 561,
+									"top": 528,
 									"width": 139,
 									"height": 13,
 									"autoResize": false,
@@ -5500,8 +5331,8 @@
 									"parentStyle": true,
 									"containerChangeable": false,
 									"containerExtending": true,
-									"left": -96,
-									"top": -36,
+									"left": -192,
+									"top": -60,
 									"width": 118,
 									"height": 13,
 									"autoResize": false,
@@ -5525,8 +5356,8 @@
 									"parentStyle": true,
 									"containerChangeable": false,
 									"containerExtending": true,
-									"left": -96,
-									"top": -36,
+									"left": -192,
+									"top": -60,
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -5544,8 +5375,8 @@
 							"parentStyle": true,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 588,
-							"top": 516,
+							"left": 556,
+							"top": 508,
 							"width": 149,
 							"height": 38,
 							"autoResize": false,
@@ -5580,8 +5411,8 @@
 							"parentStyle": true,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 588,
-							"top": 554,
+							"left": 556,
+							"top": 546,
 							"width": 149,
 							"height": 10,
 							"autoResize": false
@@ -5604,8 +5435,8 @@
 							"parentStyle": true,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 588,
-							"top": 564,
+							"left": 556,
+							"top": 556,
 							"width": 149,
 							"height": 10,
 							"autoResize": false
@@ -5628,8 +5459,8 @@
 							"parentStyle": true,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": -64,
-							"top": -24,
+							"left": -128,
+							"top": -40,
 							"width": 10,
 							"height": 10,
 							"autoResize": false
@@ -5644,8 +5475,8 @@
 					"parentStyle": false,
 					"containerChangeable": false,
 					"containerExtending": true,
-					"left": 588,
-					"top": 516,
+					"left": 556,
+					"top": 508,
 					"width": 149,
 					"height": 58,
 					"autoResize": false,
@@ -5707,8 +5538,8 @@
 									"parentStyle": true,
 									"containerChangeable": false,
 									"containerExtending": true,
-									"left": 753,
-									"top": 521,
+									"left": 741,
+									"top": 401,
 									"width": 100,
 									"height": 13,
 									"autoResize": false,
@@ -5732,8 +5563,8 @@
 									"parentStyle": true,
 									"containerChangeable": false,
 									"containerExtending": true,
-									"left": 753,
-									"top": 536,
+									"left": 741,
+									"top": 416,
 									"width": 100,
 									"height": 13,
 									"autoResize": false,
@@ -5757,8 +5588,8 @@
 									"parentStyle": true,
 									"containerChangeable": false,
 									"containerExtending": true,
-									"left": -192,
-									"top": -48,
+									"left": -228,
+									"top": -408,
 									"width": 118,
 									"height": 13,
 									"autoResize": false,
@@ -5782,8 +5613,8 @@
 									"parentStyle": true,
 									"containerChangeable": false,
 									"containerExtending": true,
-									"left": -192,
-									"top": -48,
+									"left": -228,
+									"top": -408,
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -5801,8 +5632,8 @@
 							"parentStyle": true,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 748,
-							"top": 516,
+							"left": 736,
+							"top": 396,
 							"width": 110,
 							"height": 38,
 							"autoResize": false,
@@ -5837,8 +5668,8 @@
 							"parentStyle": true,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 748,
-							"top": 554,
+							"left": 736,
+							"top": 434,
 							"width": 110,
 							"height": 10,
 							"autoResize": false
@@ -5861,8 +5692,8 @@
 							"parentStyle": true,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 748,
-							"top": 564,
+							"left": 736,
+							"top": 444,
 							"width": 110,
 							"height": 10,
 							"autoResize": false
@@ -5885,8 +5716,8 @@
 							"parentStyle": true,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": -128,
-							"top": -32,
+							"left": -152,
+							"top": -272,
 							"width": 10,
 							"height": 10,
 							"autoResize": false
@@ -5901,8 +5732,8 @@
 					"parentStyle": false,
 					"containerChangeable": false,
 					"containerExtending": true,
-					"left": 748,
-					"top": 516,
+					"left": 736,
+					"top": 396,
 					"width": 110,
 					"height": 58,
 					"autoResize": false,
@@ -5964,8 +5795,8 @@
 									"parentStyle": true,
 									"containerChangeable": false,
 									"containerExtending": true,
-									"left": 877,
-									"top": 521,
+									"left": 937,
+									"top": 289,
 									"width": 151,
 									"height": 13,
 									"autoResize": false,
@@ -5989,8 +5820,8 @@
 									"parentStyle": true,
 									"containerChangeable": false,
 									"containerExtending": true,
-									"left": 877,
-									"top": 536,
+									"left": 937,
+									"top": 304,
 									"width": 151,
 									"height": 13,
 									"autoResize": false,
@@ -6014,8 +5845,8 @@
 									"parentStyle": true,
 									"containerChangeable": false,
 									"containerExtending": true,
-									"left": -180,
-									"top": -72,
+									"left": 0,
+									"top": -768,
 									"width": 118,
 									"height": 13,
 									"autoResize": false,
@@ -6039,8 +5870,8 @@
 									"parentStyle": true,
 									"containerChangeable": false,
 									"containerExtending": true,
-									"left": -180,
-									"top": -72,
+									"left": 0,
+									"top": -768,
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -6058,8 +5889,8 @@
 							"parentStyle": true,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 872,
-							"top": 516,
+							"left": 932,
+							"top": 284,
 							"width": 161,
 							"height": 38,
 							"autoResize": false,
@@ -6094,8 +5925,8 @@
 							"parentStyle": true,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 872,
-							"top": 554,
+							"left": 932,
+							"top": 322,
 							"width": 161,
 							"height": 10,
 							"autoResize": false
@@ -6118,8 +5949,8 @@
 							"parentStyle": true,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 872,
-							"top": 564,
+							"left": 932,
+							"top": 332,
 							"width": 161,
 							"height": 10,
 							"autoResize": false
@@ -6142,8 +5973,8 @@
 							"parentStyle": true,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": -120,
-							"top": -48,
+							"left": 0,
+							"top": -512,
 							"width": 10,
 							"height": 10,
 							"autoResize": false
@@ -6158,8 +5989,8 @@
 					"parentStyle": false,
 					"containerChangeable": false,
 					"containerExtending": true,
-					"left": 872,
-					"top": 516,
+					"left": 932,
+					"top": 284,
 					"width": 161,
 					"height": 58,
 					"autoResize": false,
@@ -6214,8 +6045,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 663,
-							"top": 606,
+							"left": 645,
+							"top": 600,
 							"width": 56,
 							"height": 13,
 							"autoResize": false,
@@ -6247,8 +6078,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 706,
-							"top": 603,
+							"left": 687,
+							"top": 595,
 							"width": 0,
 							"height": 13,
 							"autoResize": false,
@@ -6279,8 +6110,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 662,
-							"top": 613,
+							"left": 644,
+							"top": 611,
 							"width": 0,
 							"height": 13,
 							"autoResize": false,
@@ -6311,8 +6142,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 688.4772727272727,
-							"top": 590,
+							"left": 664.4130434782609,
+							"top": 578,
 							"width": 0,
 							"height": 13,
 							"autoResize": false,
@@ -6343,8 +6174,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 701.4772727272727,
-							"top": 589,
+							"left": 677.4130434782609,
+							"top": 576,
 							"width": 0,
 							"height": 13,
 							"autoResize": false,
@@ -6375,8 +6206,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 660.4772727272727,
-							"top": 591,
+							"left": 637.4130434782609,
+							"top": 584,
 							"width": 0,
 							"height": 13,
 							"autoResize": false,
@@ -6407,8 +6238,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 695.8295454545455,
-							"top": 624,
+							"left": 680.7934782608696,
+							"top": 623,
 							"width": 0,
 							"height": 13,
 							"autoResize": false,
@@ -6439,8 +6270,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 707.8295454545455,
-							"top": 619,
+							"left": 692.7934782608696,
+							"top": 616,
 							"width": 0,
 							"height": 13,
 							"autoResize": false,
@@ -6471,8 +6302,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 669.8295454545455,
-							"top": 634,
+							"left": 656.7934782608696,
+							"top": 637,
 							"width": 0,
 							"height": 13,
 							"autoResize": false,
@@ -6550,7 +6381,7 @@
 						"$ref": "AAAAAAFJyYrxyTdrgyo="
 					},
 					"lineStyle": 1,
-					"points": "668.4772727272727:574;686.8295454545455:659",
+					"points": "641.4130434782609:566;676.7934782608696:659",
 					"stereotypeDisplay": "label",
 					"showVisibility": true,
 					"showProperty": true,
@@ -6617,8 +6448,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 744,
-							"top": 617,
+							"left": 735,
+							"top": 554,
 							"width": 56,
 							"height": 13,
 							"autoResize": false,
@@ -6650,8 +6481,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 785,
-							"top": 624,
+							"left": 777,
+							"top": 558,
 							"width": 0,
 							"height": 13,
 							"autoResize": false,
@@ -6682,8 +6513,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 745,
-							"top": 602,
+							"left": 734,
+							"top": 545,
 							"width": 0,
 							"height": 13,
 							"autoResize": false,
@@ -6714,8 +6545,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 783.6136363636364,
-							"top": 597,
+							"left": 786.8783783783783,
+							"top": 477,
 							"width": 0,
 							"height": 13,
 							"autoResize": false,
@@ -6746,8 +6577,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 794.6136363636364,
-							"top": 606,
+							"left": 798.8783783783783,
+							"top": 483,
 							"width": 0,
 							"height": 13,
 							"autoResize": false,
@@ -6778,8 +6609,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 762.6136363636364,
-							"top": 580,
+							"left": 761.8783783783783,
+							"top": 465,
 							"width": 0,
 							"height": 13,
 							"autoResize": false,
@@ -6810,8 +6641,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 761.3522727272727,
-							"top": 638,
+							"left": 739.5472972972973,
+							"top": 632,
 							"width": 0,
 							"height": 13,
 							"autoResize": false,
@@ -6842,8 +6673,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 773.3522727272727,
-							"top": 642,
+							"left": 753.5472972972973,
+							"top": 634,
 							"width": 0,
 							"height": 13,
 							"autoResize": false,
@@ -6874,7 +6705,7 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 735.3522727272727,
+							"left": 712.5472972972973,
 							"top": 628,
 							"width": 0,
 							"height": 13,
@@ -6953,7 +6784,7 @@
 						"$ref": "AAAAAAFJyYv7Pzi+cMI="
 					},
 					"lineStyle": 1,
-					"points": "784.6136363636364:574;735.3522727272727:659",
+					"points": "780.8783783783783:454;718.5472972972973:659",
 					"stereotypeDisplay": "label",
 					"showVisibility": true,
 					"showProperty": true,
@@ -7020,8 +6851,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 828,
-							"top": 622,
+							"left": 850,
+							"top": 503,
 							"width": 56,
 							"height": 13,
 							"autoResize": false,
@@ -7053,8 +6884,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 865,
-							"top": 634,
+							"left": 890,
+							"top": 512,
 							"width": 0,
 							"height": 13,
 							"autoResize": false,
@@ -7085,8 +6916,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 839,
-							"top": 597,
+							"left": 855,
+							"top": 484,
 							"width": 0,
 							"height": 13,
 							"autoResize": false,
@@ -7117,8 +6948,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 896.0454545454545,
-							"top": 595,
+							"left": 985.0588235294117,
+							"top": 365,
 							"width": 0,
 							"height": 13,
 							"autoResize": false,
@@ -7149,8 +6980,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 902.0454545454545,
-							"top": 607,
+							"left": 994.0588235294117,
+							"top": 375,
 							"width": 0,
 							"height": 13,
 							"autoResize": false,
@@ -7181,8 +7012,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 884.0454545454545,
-							"top": 570,
+							"left": 965.0588235294117,
+							"top": 345,
 							"width": 0,
 							"height": 13,
 							"autoResize": false,
@@ -7213,8 +7044,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 816.340909090909,
-							"top": 650,
+							"left": 773.6470588235294,
+							"top": 641,
 							"width": 0,
 							"height": 13,
 							"autoResize": false,
@@ -7245,8 +7076,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 826.340909090909,
-							"top": 659,
+							"left": 785.6470588235294,
+							"top": 647,
 							"width": 0,
 							"height": 13,
 							"autoResize": false,
@@ -7277,8 +7108,8 @@
 							"parentStyle": false,
 							"containerChangeable": false,
 							"containerExtending": true,
-							"left": 797.340909090909,
-							"top": 630,
+							"left": 749.6470588235294,
+							"top": 628,
 							"width": 0,
 							"height": 13,
 							"autoResize": false,
@@ -7356,7 +7187,7 @@
 						"$ref": "AAAAAAFJyYwv9joI1JQ="
 					},
 					"lineStyle": 1,
-					"points": "909.0454545454545:574;787.340909090909:659",
+					"points": "989.0588235294117:342;746.6470588235294:659",
 					"stereotypeDisplay": "label",
 					"showVisibility": true,
 					"showProperty": true,
